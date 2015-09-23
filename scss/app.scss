@@ -38,3 +38,17 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+#contactBar{
+margin-bottom: 0;
+bottom: 0;
+position: fixed;
+width: 100%;
+height: 50px;
+background-color: #222;
+color: #fff;
+z-index: 2;
+text-align: center;
+}
+.adBody{
+	padding-bottom: 50px;
+}
