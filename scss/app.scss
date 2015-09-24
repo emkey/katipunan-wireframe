@@ -68,3 +68,13 @@ text-align: center;
     }
   }
 }
+.ad-thumbnail{
+	height: 120px;
+	background-image: url('http://placehold.it/120x120');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.adListing{
+	border-bottom: 1px solid #e2e2e2;
+}

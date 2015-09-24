@@ -27,7 +27,7 @@
 <!-- Ad Content -->
 <div class="row">
 	<div class="large-12 columns show-for-large-up">
-				<h1>Wow Such Ad much Sell</h1>
+				<h1 class="adTitle">Wow Such Ad much Sell</h1>
 	</div>
 </div>
 <div class="row">
