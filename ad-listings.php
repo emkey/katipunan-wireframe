@@ -28,7 +28,7 @@ for ($i = 0; $i < 10; $i++) {
 					
 				</div>
 				<div class="small-8 columns">
-					<div class="adTitle">Wow such ad title much sell very yaman</div>
+					<div class="adTitle"><a href="">Wow such ad title much sell very yaman</a></div>
 					<div class="adPrice">P9,990</div>
 					<div class="adMeta">
 						<small>Manila</small><br />

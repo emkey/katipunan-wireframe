@@ -1,5 +1,19 @@
 <!-- topbar -->
 <div class="fixed">
+	<div class="global-navigation row">
+		<div class="small-2 columns">
+			<a href="">A</a>
+		</div>
+		<div class="small-2 columns">
+			<a href="">B</a>
+		</div>
+		<div class="small-2 columns">
+			<a href="">C</a>
+		</div>
+		<div class="small-2 columns end">
+			<a href="">D</a>
+		</div>
+	</div>
 	<nav class="top-bar" data-topbar role="navigation">
 	  <ul class="title-area">
 	    <li class="name">
