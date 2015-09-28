@@ -22,7 +22,29 @@
 		</div>
 	</div>
 	<div class="row adListings">
-		<div class="small-12 columns">
+		<div class="large-3 show-for-large-up columns">
+			<h2 class="subheader"><small>Location</small></h2>
+			<ul>
+				<li><a href="">Metro Manila</a></li>
+				<li><a href="">Batangas</a></li>
+				<li><a href="">Benguet</a></li>
+				<li><a href="">Bulacan</a></li>
+				<li><a href="">+ More Locations</a></li>
+			</ul>
+			<h2 class="subheader"><small>Categories</small></h2>
+			<ul>
+				<li><a href="">Books, Sports and Hobbies</a>
+					<ul>
+						<li><a href="">Collectibles</a></li>
+						<li><a href="">Books and other Publications</a></li>
+						<li><a href="">Souvenirs and Giveawats</a></li>
+						<li><a href="">Arts and Crafts</a></li>
+					</ul>
+				</li>
+				<li><a href="">Baby Stuff and Toys</a></li>
+			</ul>
+		</div>
+		<div class="small-12 large-9 columns">
 			<div class="row  small-collapse medium-uncollapse large-uncollapse">
 <?php
 for ($i = 0; $i < 12; $i++) {
