@@ -38,7 +38,7 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
-#contactBar{
+#contactBar, #searchFilter{
 margin-bottom: 0;
 bottom: 0;
 position: fixed;
@@ -76,6 +76,12 @@ text-align: center;
 	background-position: center center;
 	background-size: cover;
 }
+.adListings{
+	margin-bottom: 60px;
+}
 .adListing{
-	border-bottom: 1px solid #e2e2e2;
+	box-shadow: 0px 0px 4px #e1e1e1;
+	margin-top: 8px !important;
+	margin-bottom: 8px !important;
+	background-color: #fff;
 }
