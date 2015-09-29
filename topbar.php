@@ -1,5 +1,6 @@
 <!-- topbar -->
-<div class="fixed">
+<div class="fixed contain-to-grid">
+	<!--
 	<div class="global-navigation row">
 		<div class="small-2 columns">
 			<a href="">A</a>
@@ -14,6 +15,7 @@
 			<a href="">D</a>
 		</div>
 	</div>
+	-->
 	<nav class="top-bar" data-topbar role="navigation">
 	  <ul class="title-area">
 	    <li class="name">

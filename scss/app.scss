@@ -85,3 +85,90 @@ text-align: center;
 	margin-bottom: 8px !important;
 	background-color: #fff;
 }
+.categoryList{
+	border-top: 1px solid #e2e2e2;
+	@media only screen and (max-width: 40em) { 
+		border: 0px;
+	}
+	@media only screen and (min-width: 64.063em) {
+		border: 0px;
+	}
+}
+.categoryList-item{
+	border-bottom: 1px solid #e2e2e2;
+	a{
+		background: $white;
+		display: block;
+		padding: 0.5rem 0.5rem;
+		@media only screen and (min-width: 64.063em) {
+			padding: 1rem 0.25rem;
+		}
+		border-radius: 2px;
+		margin: 0px 0.25rem;
+		&:hover{
+		background-color: #e2e2e2;
+		}
+	}
+	@media only screen and (min-width: 40.063em) {
+		padding-top: 0.25rem;
+		padding-bottom: 0.25rem;
+		border-bottom: 0px !important;
+	}
+	
+}
+.sellSection{
+	background-image: url('http://d60d3gemsrq4j.cloudfront.net/static/olxph/packed/img/2f5a37b2d1149890c057eaea9bb946d061.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 1rem 3rem;
+	@media only screen and (min-width: 40.063em) {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	}
+	@media only screen and (min-width: 64.063em) { 
+		height: 27rem;
+		padding-top: 13rem;
+	}
+	.button{
+		display: block;
+		border-radius: 2px;
+		margin: 0px 1rem;
+		@media only screen and (min-width: 40.063em) {
+			margin-left: 5rem;
+			margin-right: 5rem;	
+		}
+	}
+}
+.homescreenBody{
+	@media only screen and (min-width: 64.063em) {
+	margin-top: 1rem;
+	}
+}
+.categoryIcons{
+	width: 2rem;
+	height: 2rem;
+	border-radius: 1rem;
+	background-color: #999;
+	display: block;
+	float: left;
+	margin-right: 1rem;
+	margin-bottom: 0.5rem;
+	@media only screen and (min-width: 40.063em) { 
+		width: 4rem;
+		height: 4rem;
+		float: none;
+		clear: both;
+		border-radius: 2rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+.categoryTitle{
+	line-height: 2rem;
+	font-size: 1em;
+	@media only screen and (min-width: 40.063em) { 
+	text-align: center;
+	display: block;
+	}
+}
