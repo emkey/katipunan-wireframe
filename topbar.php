@@ -1,25 +1,9 @@
 <!-- topbar -->
 <div class="fixed contain-to-grid">
-	<!--
-	<div class="global-navigation row">
-		<div class="small-2 columns">
-			<a href="">A</a>
-		</div>
-		<div class="small-2 columns">
-			<a href="">B</a>
-		</div>
-		<div class="small-2 columns">
-			<a href="">C</a>
-		</div>
-		<div class="small-2 columns end">
-			<a href="">D</a>
-		</div>
-	</div>
-	-->
 	<nav class="top-bar" data-topbar role="navigation">
 	  <ul class="title-area">
 	    <li class="name">
-	      <h1><a href="#">My Site</a></h1>
+	      <h1><a href="#">OLX.ph</a></h1>
 	    </li>
 	    <li class="has-form">
 	      <div class="row collapse">
