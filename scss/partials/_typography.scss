@@ -41,4 +41,10 @@ strong{
 a{
 	color: $olx-cyan;
 	text-decoration: none;
+	&:visited{
+		color: darken($olx-cyan, 5%);
+	}
+	&:hover{
+		color: lighten($olx-cyan, 10%);
+	}
 }

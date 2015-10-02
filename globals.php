@@ -32,7 +32,18 @@
 				<h4><strong>Header 4</strong></h4>
 				<h5><strong>Header 5</strong></h5>
 				<h6><strong>Header 6</strong></h6>
-				<p><a href="#">This is a Link</a></p>
+				<p><a href="globals.php">This is a Link</a></p>
+			</div>
+			
+		</div>
+		<div class="row">
+			<div class="column small-12">
+				<form>
+					<label>Text Input</label>
+					<input type="text" placeholder="text input" />
+					<label>Search</label>
+					<input type="search" placeholder="search" />
+				</form>
 			</div>
 		</div>
 	<?php include ('footer.php'); ?>
