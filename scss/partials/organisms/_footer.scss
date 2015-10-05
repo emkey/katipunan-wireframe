@@ -1,0 +1,27 @@
+#global-footer{
+	background-color: darken($alabaster, 10%);
+	font-size: 0.8rem;
+	clear: both;
+	margin-top: 2rem;
+	padding-top: 2rem;
+	ul{
+		display: block;
+		margin: 0 0 1rem 0;
+		padding: 0px;
+	}
+	li{
+		display: block;
+		margin: 0px;
+		padding: 0px;
+	}
+	h2{
+		font-size: 1rem;
+		margin: rem-calc(8px) 0px rem-calc(4px) 0px;
+		padding: 0px;
+		color: $grey1;
+	}
+	.copyright{
+		text-align: center;
+		padding: 1rem 0px;
+	}
+}

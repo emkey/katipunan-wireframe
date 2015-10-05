@@ -2,16 +2,20 @@
 	background-color: $olx-cyan;
 	.search{
 		margin: rem-calc(8px) 0px;
+		input, .button{
+			border: 0px;
+		}
 		.search-field{
 			@include grid-column(12);
 			@media #{$medium-up} {
 				@include grid-column(10);
+				border-bottom-right-radius: 0px;
+				border-top-right-radius: 0px;
 			}
 			@media #{$large-up} {
 				@include grid-column(8);
 				border-right: 0px;
-				border-bottom-right-radius: 2px;
-				border-top-right-radius: 2px;
+				
 			}
 		}
 		.search-locationfilter{
