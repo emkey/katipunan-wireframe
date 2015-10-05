@@ -44,7 +44,11 @@
 					
 					<div class="search">
 						<label>Search</label>
-						<input type="search" placeholder="search" class="search-field" /><a href="" class="button search-submit">Search</a>
+						<input type="search" placeholder="Search" class="search-field" />
+						<div class="search-locationfilter show-for-large-up">
+							<a href="#" class="button secondary">All Philippines</a>
+						</div>
+						<a href="" class="button show-for-medium-up search-submit">Search</a>
 					</div>
 				</form>
 			</div>

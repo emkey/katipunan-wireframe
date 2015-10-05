@@ -19,4 +19,9 @@
 	&:active{
 		color: $alabaster
 	}
+	&.secondary{
+		background-color: $grey3;
+		border: $grey3;
+	}
 }
+

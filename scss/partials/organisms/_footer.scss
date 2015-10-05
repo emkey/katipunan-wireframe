@@ -2,8 +2,16 @@
 	background-color: darken($alabaster, 10%);
 	font-size: 0.8rem;
 	clear: both;
-	margin-top: 2rem;
-	padding-top: 2rem;
+	margin-top: 4rem;
+	&::before{
+		content: "";
+		display: block;
+		margin: 0 0 15px;
+		padding: 0px;
+		height: 2px;
+		background-size: 100% auto;
+		background-image: linear-gradient(to right, $olx-purple 0%, $olx-purple 33%, $olx-green 33%, $olx-green 66%, $olx-orange 66%);
+	}
 	ul{
 		display: block;
 		margin: 0 0 1rem 0;

@@ -8,10 +8,24 @@
 	.search-field{
 		@include grid-column(8);
 		border-top-right-radius: 0;
-		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+		border-right: 0px;
+	}
+	.search-locationfilter{
+		@include grid-column($columns: 2, $collapse: true);
+		border-top: 1px solid darken($alabaster, 10%);
+		border-bottom: 1px solid darken($alabaster, 10%);
+		background-color: $white;
+		text-align: right;
+		.button{
+			line-height: rem-calc(36);
+			margin: rem-calc(4);
+			display: block;
+			font-size: 0.8em;
+		}
 	}
 	.search-submit{
-		@include grid-column (4);
+		@include grid-column (2);
 		border-top-left-radius: 0;
 		border-bottom-left-radius: 0;
 		background-color: $olx-green;

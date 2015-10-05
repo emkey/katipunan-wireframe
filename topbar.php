@@ -6,7 +6,11 @@
 		</a>
 		<div class="columns small-10">
 			<form class="search">
-					<input type="search" placeholder="Search" class="search-field" /><input type="text" class="show-for-large search-locationfilter" placeholder="All Philippines" /><a href="" class="button show-for-medium-up search-submit">Search</a>
+					<input type="search" placeholder="Search" class="search-field" />
+					<div class="search-locationfilter show-for-large-up">
+						<a href="#" class="button secondary">All Philippines</a>
+					</div>
+					<a href="" class="button show-for-medium-up search-submit">Search</a>
 			</form>
 		</div>
 	</div>
