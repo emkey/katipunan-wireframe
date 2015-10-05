@@ -14,5 +14,9 @@
 		@include grid-column (4);
 		border-top-left-radius: 0;
 		border-bottom-left-radius: 0;
+		background-color: $olx-green;
+		border-color: $olx-green;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
 	}
 }

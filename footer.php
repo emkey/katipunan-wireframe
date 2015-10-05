@@ -1,7 +1,7 @@
 <footer id="global-footer">
 	<div class="row">
 		<div class="small-12 medium-4 columns">
-			<h2>OLX</h2>
+			<h2><small>OLX</small></h2>
 			<ul>
 				<li><a href="http://yaman.olx.ph">Blog</a></li>
 				<li><a href="#">Help</a></li>
@@ -9,7 +9,7 @@
 			</ul>
 		</div>
 		<div class="small-12 medium-4 columns">
-			<h2>Partners</h2>
+			<h2><small>Partners</small></h2>
 			<ul>
 				<li><a href="">OLX Indonesia</a></li>
 				<li><a href="">Property 24</a></li>

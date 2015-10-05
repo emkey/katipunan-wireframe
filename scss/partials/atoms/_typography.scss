@@ -1,4 +1,5 @@
-@import "../../globals";
+/* Generic Typographyic Hierarchy */
+
 
 // body type
 body{
@@ -36,6 +37,10 @@ h6{
 // type styles
 strong{
 	font-weight: $body-fontweight-bold;
+}
+
+small{
+	font-size: 0.8rem;
 }
 
 a{
