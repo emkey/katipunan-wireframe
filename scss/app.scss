@@ -1,4 +1,4 @@
-@import "globalvariables";
+@import "globals";
 // @import "settings";
 // @import "foundation";
 
@@ -40,10 +40,10 @@
 //	 "foundation/components/type",
 //   "foundation/components/offcanvas",
 	 "foundation/components/visibility",
-	 "partials/typography",
-	 "partials/forms",
-	 "partials/colorpalette",
-	 "partials/topbar";
+	 "partials/atoms",
+	 "partials/molecules",
+	 "partials/organisms";
+	 
 .has-form {
   position: absolute;
   top: 0;

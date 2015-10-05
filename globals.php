@@ -37,13 +37,21 @@
 			
 		</div>
 		<div class="row">
-			<div class="column small-12">
+			<div class="columns small-12">
 				<form>
 					<label>Text Input</label>
 					<input type="text" placeholder="text input" />
-					<label>Search</label>
-					<input type="search" placeholder="search" />
+					
+					<div class="search">
+						<label>Search</label>
+						<input type="search" placeholder="search" class="search-field" /><a href="" class="button search-submit">Search</a>
+					</div>
 				</form>
+			</div>
+		</div>
+		<div class="row">
+			<div class="columns small-12">
+				<a href="" class="button">Button</a>
 			</div>
 		</div>
 	<?php include ('footer.php'); ?>
