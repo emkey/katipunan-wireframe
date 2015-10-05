@@ -1,0 +1,18 @@
+.search{
+	@include grid-row();
+	label{
+		display: block;
+		margin: rem-calc(8px) 0px;
+		@include grid-column($columns: 12, $collapse: true);
+	}
+	.search-field{
+		@include grid-column(8);
+		border-top-right-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+	.search-submit{
+		@include grid-column (4);
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+}

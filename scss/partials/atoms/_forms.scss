@@ -1,4 +1,4 @@
-@import "../globalvariables";
+@import "../../globals";
 
 input{
 	line-height: rem-calc(44);
@@ -8,6 +8,6 @@ input{
 	font-size: $body-fontsize;
 	color: $grey3;
 	border: 1px solid darken($alabaster, 10%);
+	box-sizing: border-box;
 	border-radius: rem-calc(2);
-	margin: rem-calc(8) 0;
 }
