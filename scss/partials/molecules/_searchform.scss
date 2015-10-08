@@ -1,5 +1,8 @@
 .search{
 	@include grid-row();
+	@extend .margin-top-half;
+	@extend .margin-bottom-half;
+	@extend .display-block;
 	label{
 		display: block;
 		margin: rem-calc(8px) 0px;
@@ -7,30 +10,41 @@
 	}
 	.search-field{
 		@include grid-column(8);
-		border-top-right-radius: 0;
-		border-bottom-right-radius: 0;
-		border-right: 0px;
+		@media #{$medium-up} {
+			border-top-right-radius: 0px;
+			border-bottom-right-radius: 0px;
+		}
+		border-right-width: 0px;
+		
+
 	}
 	.search-locationfilter{
-		@include grid-column($columns: 2, $collapse: true);
-		border-top: 1px solid darken($alabaster, 10%);
-		border-bottom: 1px solid darken($alabaster, 10%);
+		@extend .border-solid;
+		@extend .border-subtle;
+		@extend .border-width;
 		background-color: $white;
-		text-align: right;
+		padding-top: rem-calc(3px);
+		padding-bottom: rem-calc(3px);
+		border-left: 0px;
+		border-right: 0px;
+		@include grid-column($columns: 2, $collapse: true);
 		.button{
-			line-height: rem-calc(36);
-			margin: rem-calc(4);
-			display: block;
-			font-size: 0.8em;
+			@extend .padding-half;
+			@extend .display-block;
+			@extend .margin-left-base;
+			@extend .margin-right-base;
+			@extend .text-center;
+			@extend .hollow;
 		}
 	}
 	.search-submit{
-		@include grid-column (2);
-		border-top-left-radius: 0;
-		border-bottom-left-radius: 0;
-		background-color: $olx-green;
-		border-color: $olx-green;
-		border-top-right-radius: 0;
-		border-bottom-right-radius: 0;
+		@extend .success;
+		@include grid-column (4);
+		@media #{$medium-up} {
+			@include grid-column (2);	
+		}
+		text-align: center;
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;
 	}
 }

@@ -1,0 +1,38 @@
+$base-space: rem-calc(8px);
+$small-space: rem-calc(8px/2);
+$medium-space: rem-calc(8px/2 + 8px);
+$large-space: rem-calc(8px*2);
+$xlarge-space: rem-calc(8px*3);
+
+$rounded-corners: rem-calc(4px);
+
+$blue: $olx-cyan;
+$neutral: $grey1;
+$subtle: $grey3;
+$error: $olx-vermillion;
+$alert: $olx-seafoam;
+$success: $olx-green;
+$warning: $olx-pineapple;
+$sell: $olx-orange;
+
+
+$border-blue: $olx-cyan;
+$border-neutral: $grey1;
+$border-subtle: $grey3;
+$border-error: $olx-vermillion;
+$border-alert: $olx-seafoam;
+$border-success: $olx-green;
+$border-warning: $olx-pineapple;
+
+$border-sell: $olx-orange;
+
+
+$background-blue: $olx-cyan;
+$background-neutral: $grey1;
+$background-subtle: $grey3;
+$background-error: $olx-vermillion;
+$background-alert: $olx-seafoam;
+$background-success: $olx-green;
+$background-warning: $olx-pineapple;
+
+$background-sell: $olx-orange;

@@ -1,27 +1,72 @@
 /* Generic Button atoms to be used for Katipunan */
 
 .button{
-	line-height: rem-calc(44);
-	background-color: $grey1;
-	display: inline-block;
-	text-align: center;
-	padding: 0px rem-calc(8px);
-	border-radius:rem-calc(2px);
-	color: $alabaster;
-	border: 1px solid $grey1;
+	@extend .padding-base;
+	@extend .display-inline-block;
+	@extend .border-radius;
+	@extend .border-width;
+	@extend .border-blue;
+	@extend .border-solid;
+	@extend .background-blue;
+	color: $white;
 	&:hover{
-		color: $alabaster;
-		background-color: lighten($grey1, 10%);
+		color: $white;
+		background-color: lighten($blue, 10%);
 	}
 	&:visited{
-		color: $alabaster
+		color: $white;
 	}
 	&:active{
-		color: $alabaster
+		color: $white;
 	}
-	&.secondary{
-		background-color: $grey3;
-		border: $grey3;
+	&.neutral{
+		@extend .background-neutral;
+		@extend .border-neutral;
+		&:hover{
+			background-color: lighten($neutral, 10%);
+			border-color: lighten ($neutral, 10%);
+		}
+	}
+	&.error{
+		@extend .background-error;
+		@extend .border-error;
+		&:hover{
+			background-color: lighten($error, 10%);
+			border-color: lighten($error, 10%);
+		}
+	}
+	&.warning{
+		@extend .background-warning;
+		@extend .border-warning;
+		&:hover{
+			background-color: lighten($warning, 10%);
+			border-color: lighten($warning, 10%);
+		}
+	}
+	&.hollow{
+		background-color: $white;
+		color: $blue;
+		&:hover{
+			background-color: $blue;
+			border-color: $blue;
+			color: $white;
+		}
+	}
+	&.disabled{
+		@extend .background-subtle;
+		@extend .border-subtle;
+		&:hover{
+			background-color: $subtle;
+			border-color: $subtle;
+		}
+	}
+	&.success{
+		@extend .background-success;
+		@extend .border-success;
+		&:hover{
+			background-color: lighten($success, 5%);
+			border-color: lighten($success, 5%);
+		}
 	}
 }
 

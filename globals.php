@@ -46,16 +46,17 @@
 						<label>Search</label>
 						<input type="search" placeholder="Search" class="search-field" />
 						<div class="search-locationfilter show-for-large-up">
-							<a href="#" class="button secondary">All Philippines</a>
+							<a href="#" class="button">All Philippines</a>
 						</div>
-						<a href="" class="button show-for-medium-up search-submit">Search</a>
+						<a href="" class="button search-submit">Search</a>
 					</div>
 				</form>
 			</div>
 		</div>
+		<br />
 		<div class="row">
 			<div class="columns small-12">
-				<a href="" class="button">Button</a>
+				<a href="" class="button">Button</a> <a href="" class="button neutral">Secondary Button</a> <a href="" class="button error"> Error</a> <a href="" class="button warning">Warning</a> <a href="" class="button hollow">Hollow</a> <a href="" class="button disabled">Disabled</a> <a href="" class="button success">Success</a>
 			</div>
 		</div>
 	<?php include ('footer.php'); ?>

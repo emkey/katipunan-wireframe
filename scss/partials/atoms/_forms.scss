@@ -1,13 +1,13 @@
 /* Generic form atoms */
 
 input{
-	line-height: rem-calc(44);
-	padding: 0 0.5rem;
-	width: 100%;
-	border: 0px;
-	font-size: $body-fontsize;
-	color: $grey3;
-	border: 1px solid darken($alabaster, 10%);
+	@extend .padding-base;
+	@extend .display-block;
+	@extend .border-radius;
+	@extend .border-width;
+	@extend .border-subtle;
+	@extend .border-solid;
 	box-sizing: border-box;
-	border-radius: rem-calc(2);
+	font-size: $body-fontsize;
+	line-height: $body-lineheight;
 }

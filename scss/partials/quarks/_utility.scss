@@ -1,0 +1,116 @@
+
+
+// Alignment
+.text-left 		{ text-align: left; }
+.text-center 	{ text-align: center; }
+.text-right 	{ text-align: right; }
+
+.float-left 	{ float: left; }
+.float-right 	{ float: right; }
+
+.block-center 	{ margin: 0 auto; }
+
+.valign-top 	{ vertical-align: top; }
+.valign-middle 	{ vertical-align: middle; }
+.valign-bottom 	{ vertical-align: bottom; }
+
+// Borders
+.border-radius { border-radius: $rounded-corners }
+.border-width { border-width: rem-calc(1px); }
+.border-solid { border-style: solid; }
+.border-blue { border-color: $olx-cyan; }
+
+.border-top { border-top-width: rem-calc(1px); }
+.border-left { border-left-width: rem-calc(1px); }
+.border-bottom { border-bottom-width: rem-calc(1px); }
+.border-right { border-right-width: rem-calc(1px); }
+
+.border-neutral { border-color: $border-neutral; }
+.border-subtle { border-color: $border-subtle; }
+.border-error { border-color: $border-error; }
+.border-alert { border-color: $border-alert; }
+.border-success { border-color: $border-success; }
+.border-warning { border-color: $border-warning; }
+
+.background-blue { background-color: $olx-cyan }
+.background-neutral { background-color: $background-neutral; }
+.background-subtle { background-color: $background-subtle; }
+.background-error { background-color: $background-error; }
+.background-alert { background-color: $background-alert; }
+.background-success { background-color: $background-success; }
+.background-warning { background-color: $background-warning; }
+
+// Display
+
+.display-inline 		{ display: inline; }
+.display-inline-block 	{ display: inline-block; }
+.display-block 			{ display: block; }
+.display-table 			{ display: table; }
+.display-table-row 		{ display: table-row; }
+.display-table-cell 	{ display: table-cell; }
+.hide 					{ display: none; }
+
+// Margins & padding 
+
+.margin-0 { margin: 0; }
+.margin-half { margin: $small-space; }
+.margin-base { margin: $base-space; }
+.margin-medium{ margin: $medium-space; }
+.margin-large { margin: $large-space; }
+.margin-xlarge { margin: $xlarge-space; }
+
+.margin-top-half { margin-top: $small-space; }
+.margin-top-base { margin-top: $base-space; }
+.margin-top-medium { margin-top: $medium-space;}
+.margin-top-large { margin-top: $large-space; }
+.margin-top-xlarge { margin-top: $xlarge-space; }
+
+.margin-right-half { margin-right: $small-space; }
+.margin-right-base { margin-right: $base-space; }
+.margin-right-medium {margin-right: $medium-space;}
+.margin-right-large { margin-right: $large-space; }
+.margin-right-xlarge { margin-right: $xlarge-space; }
+
+.margin-bottom-half { margin-bottom: $small-space; }
+.margin-bottom-base { margin-bottom: $base-space; }
+.margin-bottom-medium {margin-bottom: $medium-space; }
+.margin-bottom-large { margin-bottom: $large-space; }
+.margin-bottom-xlarge { margin-bottom: $xlarge-space; }
+
+.margin-left-half { margin-left: $small-space; }
+.margin-left-base { margin-left: $base-space; }
+.margin-left-medium { margin-left: $medium-space; }
+.margin-left-large { margin-left: $large-space; }
+.margin-left-xlarge { margin-left: $xlarge-space; }
+
+
+.padding-0 { padding: 0; }
+.padding-half { padding: $small-space; }
+.padding-base { padding: $base-space; }
+.padding-medium { padding: $medium-space; }
+.padding-large { padding: $large-space; }
+.padding-xlarge { padding: $xlarge-space; }
+
+.padding-top-half { padding-top: $small-space; }
+.padding-top-base { padding-top: $base-space; }
+.padding-top-medium { padding-top: $medium-space; }
+.padding-top-large { padding-top: $large-space; }
+.padding-top-xlarge { padding-top: $xlarge-space; }
+
+.padding-right-half { padding-right: $small-space; }
+.padding-right-base { padding-right: $base-space; }
+.padding-right-medium { padding-right: $medium-space; }
+.padding-right-large { padding-right: $large-space; }
+.padding-right-xlarge { padding-right: $xlarge-space; }
+
+.padding-bottom-half { padding-bottom: $small-space; }
+.padding-bottom-base { padding-bottom: $base-space; }
+.padding-bottom-medium { padding-bottom: $medium-space; }
+.padding-bottom-large { padding-bottom: $large-space; }
+.padding-bottom-xlarge { padding-bottom: $xlarge-space; }
+
+.padding-left-half { padding-left: $small-space; }
+.padding-left-base { padding-left: $base-space; }
+.padding-left-base { padding-left: $medium-space; }
+.padding-left-large { padding-left: $large-space; }
+.padding-left-xlarge { padding-left: $xlarge-space; }

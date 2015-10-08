@@ -1,25 +1,27 @@
 #global-header{
 	background-color: $olx-cerulean;
+	
 	.search{
-		margin: rem-calc(8px) 0px;
+		@extend .margin-top-base;
+		@extend .margin-bottom-base;
 		input, .button{
-			border: 0px;
 		}
 		.search-field{
+			border: 0px;
 			@include grid-column(12);
 			@media #{$medium-up} {
 				@include grid-column(10);
-				border-bottom-right-radius: 0px;
-				border-top-right-radius: 0px;
+
 			}
 			@media #{$large-up} {
-				@include grid-column(8);
-				border-right: 0px;
-				
+				@include grid-column(8);		
 			}
 		}
 		.search-locationfilter{
-			border: 0;
+			border: 0px;
+		}
+		.search-submit{
+			border: 0px;
 		}
 	}
 	.header-logo{
