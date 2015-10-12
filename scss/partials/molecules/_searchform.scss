@@ -1,7 +1,5 @@
 .search{
 	@include grid-row();
-	@extend .margin-top-half;
-	@extend .margin-bottom-half;
 	@extend .display-block;
 	label{
 		display: block;
@@ -10,13 +8,13 @@
 	}
 	.search-field{
 		@include grid-column(8);
-		@media #{$medium-up} {
-			border-top-right-radius: 0px;
-			border-bottom-right-radius: 0px;
-		}
 		border-right-width: 0px;
+		@media #{$medium-up} {
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
 		
-
+		}
+		
 	}
 	.search-locationfilter{
 		@extend .border-solid;
@@ -43,8 +41,12 @@
 		@media #{$medium-up} {
 			@include grid-column (2);	
 		}
+		
 		text-align: center;
 		border-top-left-radius: 0px;
 		border-bottom-left-radius: 0px;
+		.button{
+			margin: 0px;
+		}
 	}
 }

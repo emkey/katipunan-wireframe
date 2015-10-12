@@ -1,6 +1,5 @@
 #global-header{
 	background-color: $olx-cerulean;
-	
 	.search{
 		@extend .margin-top-base;
 		@extend .margin-bottom-base;
@@ -29,7 +28,7 @@
 		background-repeat: no-repeat;
 		background-size: 80% auto;
 		background-position: center center;
-		height: rem-calc(62px);
+		height: rem-calc(56px);
 		text-indent: -100%;
 		white-space: nowrap;
 		@include grid-column($collapse: true);

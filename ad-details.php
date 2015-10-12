@@ -9,159 +9,80 @@
 	</head>
 	<body>
 <?php include('topbar.php'); ?>
-<!-- Floating Contact Bar -->
-<div id="contactBar" class="hide-for-large-up">
 	<div class="row">
-			<div class="small-4 columns">
-				Call
-			</div>
-			<div class="small-4 columns">
-				SMS
-			</div>
-			<div class="small-4 columns">
-				Chat
-			</div>
-	</div>
-</div>
-<!-- end Floating Contact Bar -->
-<!-- Ad Content -->
-<div class="row">
-	<div class="large-12 columns show-for-large-up">
-				<h1 class="adTitle">Wow Such Ad much Sell</h1>
-	</div>
-</div>
-<div class="row">
-	<div class="small-12 large-8 columns">
-		<div class="row">
-			<div class="small-12 columns gallery">
-				<img src="http://placehold.it/640x580" srcset="http://placehold.it/320x240 320w, http://placehold.it/640x480 640w" sizes="100vw" alt="Placeholder" />
-			</div>
+		<div class="gallery small-12 large-8 column">
+			<img src="http://placehold.it/640x360">
+		</div>
+		
+		<div class="card small-12 medium-5 large-4 column">
+			<header class="card-header">
+				<small>22 Views</small>
+			</header>
+			<div class="card-body">
+				<div class="table-data">
+					
+					<div class="data-set">
+						<div class="data-label">
+							<div class="label">Price</div>
+						</div>
+						<div class="small-7 column data-content">
+							<strong>PHP 1,999</strong>
+						</div>
+					</div>
+					
+					<div class="data-set">
+						<div class="data-label">
+							<div class="label">Contact Number</div>
+						</div>
+						<div class="data-content">
+							<a href="" class="button success">0917-6315010</a>
+						</div>
+					</div>
+					
+					<div class="data-set">
+						<div class="data-label">
+							Date Posted
+						</div>
+						<div class="data-content">
+							Oct 12, 2015
+						</div>
+					</div>
+					
+					<div class="data-set">
+						<div class="data-label">
+							Condition
+						</div>
+						<div class="data-content">
+							2nd Hand (used)
+						</div>
+					</div>
+					
+					<div class="data-set">
+						<div class="data-label">
+							Location
+						</div>
+						<div class="data-content">
+							<a href="">Taguig City, Metro Manila</a>
+						</div>
+					</div>
 
-			<div class="small-12 columns adDetails hide-for-large-up">
-				<ul class="pricing-table">
-					<li class="title">
-						Wow such ad much sell
-					</li>
-					<li class="bullet-item">
-						<div class="row">
-							<div class="small-3 columns">
-								Ad ID
-							</div>
-							<div class="small-9 columns">
-								102363392
-							</div>
-						</div>
-					</li>
-					<li class="bullet-item">
-						<div class="row">
-							<div class="small-3 columns">
-								Location
-							</div>
-							<div class="small-9 columns">
-								Pasig
-							</div>
-						</div>
-					</li>
-					<li class="bullet-item">
-						<div class="row">
-							<div class="small-3 columns">
-								Condition
-							</div>
-							<div class="small-9 columns">
-								Brand New
-							</div>
-						</div>
-					</li>
-					<li class="bullet-item">
-						<div class="row">
-							<div class="small-3 columns">
-									Views
-							</div>
-							<div class="small-9 columns">
-								26
-							</div>
-						</div>
-					</li>
-					<li class="bullet-item">
-						<div class="row">
-							<div class="small-3 columns">
-									Seller
-							</div>
-							<div class="small-9 columns">
-								<a href="">Cheese Fluff Online</a>
-							</div>
-						</div>
-					</li>
-				</ul>
+				</div>
 			</div>
-			
-			<div class="small-12 columns adDescription">
-				<p>Hitherto, in descriptively treating of the Sperm Whale, I have chiefly dwelt upon the marvels of his outer aspect; or separately and in detail upon some few interior structural features. But to a large and thorough sweeping comprehension of him, it behooves me now to unbutton him still further, and untagging the points of his hose, unbuckling his garters, and casting loose the hooks and the eyes of the joints of his innermost bones, set him before you in his ultimatum; that is to say, in his unconditional skeleton.</p>
+		</div>	
+		
+		<div class="card small-12 medium-7 large-8 column end">
+			<header class="card-header">
+				<small>Description</small>
+			</header>
+			<div class="card-body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a class="button hollow display-block text-center">
+					Read More
+				</a>
 			</div>
 		</div>
 	</div>
-	<div class="large-4 columns show-for-large-up">
-		<div class="row">
-			<div class="small-12 adDetails">
-				<ul class="pricing-table">
-					<li class="bullet-item">
-						<div class="row">
-							<div class="small-3 columns">
-								Ad ID
-							</div>
-							<div class="small-9 columns">
-								102363392
-							</div>
-						</div>
-					</li>
-					<li class="bullet-item">
-						<div class="row">
-							<div class="small-3 columns">
-								Location
-							</div>
-							<div class="small-9 columns">
-								Pasig
-							</div>
-						</div>
-					</li>
-					<li class="bullet-item">
-						<div class="row">
-							<div class="small-3 columns">
-								Condition
-							</div>
-							<div class="small-9 columns">
-								Brand New
-							</div>
-						</div>
-					</li>
-					<li class="bullet-item">
-						<div class="row">
-							<div class="small-3 columns">
-									Views
-							</div>
-							<div class="small-9 columns">
-								26
-							</div>
-						</div>
-					</li>
-					<li class="bullet-item">
-						<div class="row">
-							<div class="small-3 columns">
-									Seller
-							</div>
-							<div class="small-9 columns">
-								<a href="">Cheese Fluff Online</a>
-							</div>
-						</div>
-					</li>
-					<li class="cta-button">
-						<a class="button" href="">Contact Seller</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
+<?php include('footer.php'); ?>
 <!-- end of ad content -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>

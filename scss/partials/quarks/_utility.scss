@@ -16,15 +16,20 @@
 
 // Borders
 .border-radius { border-radius: $rounded-corners }
+.border-bottom-left-radius {border-bottom-left-radius: $rounded-corners;}
+.border-bottom-right-radius {border-bottom-right-radius: $rounded-corners;}
+.border-top-left-radius {border-top-left-radius: $rounded-corners;}
+.border-top-right-radius {border-top-right-radius: $rounded-corners;}
 .border-width { border-width: rem-calc(1px); }
 .border-solid { border-style: solid; }
-.border-blue { border-color: $olx-cyan; }
+
 
 .border-top { border-top-width: rem-calc(1px); }
 .border-left { border-left-width: rem-calc(1px); }
 .border-bottom { border-bottom-width: rem-calc(1px); }
 .border-right { border-right-width: rem-calc(1px); }
 
+.border-blue { border-color: $olx-cyan; }
 .border-neutral { border-color: $border-neutral; }
 .border-subtle { border-color: $border-subtle; }
 .border-error { border-color: $border-error; }
