@@ -44,7 +44,7 @@
 					
 					<div class="search">
 						<label>Search</label>
-						<input type="search" placeholder="Search" class="search-field" />
+						<input type="text" placeholder="text input" class="search-field" />
 						<div class="search-locationfilter show-for-large-up">
 							<a href="#" class="button">All Philippines</a>
 						</div>

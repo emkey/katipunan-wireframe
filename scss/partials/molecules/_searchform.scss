@@ -7,12 +7,12 @@
 		@include grid-column($columns: 12, $collapse: true);
 	}
 	.search-field{
-		@include grid-column(8);
+		@include grid-column (8);
 		border-right-width: 0px;
+		margin: 0px;
 		@media #{$medium-up} {
 		border-top-right-radius: 0px;
 		border-bottom-right-radius: 0px;
-		
 		}
 		
 	}
