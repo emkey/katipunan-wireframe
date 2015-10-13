@@ -13,7 +13,7 @@
 	<div class="row">
 		<header class="small-12 column"><h1 class="ad-title">Lorem Ipsum Dolor Sit Amet</h1></header>
 		<div class="gallery small-12 large-8 column">
-			<img src="http://placehold.it/640x480">
+			<img src="http://placehold.it/640x360">
 		</div>
 		
 		<div class="card small-12 medium-5 large-4 column">
