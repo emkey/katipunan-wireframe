@@ -1,6 +1,6 @@
-# Foundation libsass template
+# OLX Katipunan Frontend Framework
 
-This is a template to start your own project that uses Grunt and libsass!
+This is a one web project for a responsive version of OLX SEA
 
 ## Requirements
 
@@ -10,16 +10,25 @@ You'll need to have the following items installed before continuing.
   * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
   * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
 
-## Quickstart
+## Step 1
+
+Clone this git repo into your computer
+
+## Step 2
+
+Open terminal and go to the directory where you cloned this repo
+
+## Step 3 
+
+Type this into terminal
 
 ```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
 npm install && bower install
 ```
 
 While you're working on your project, run:
 
-`grunt`
+`grunt`git
 
 And you're set!
 
