@@ -12,24 +12,3 @@
 	border: 1px solid $alabaster;
 	background-color: $white;
 }
-.data-set{
-	@include grid-row();
-	div{
-		
-	}
-	.data-label{
-		@include grid-column(5);
-		text-align: right;
-		font-weight: 500;
-		font-size: 0.7em;
-		color: $subtle;
-		@extend .padding-top-base;
-		@extend .padding-bottom-base;
-	}
-	.data-content{
-		@extend .padding-top-base;
-		@extend .padding-bottom-base;
-		@include grid-column(7);
-		line-height: $body-lineheight;
-	}
-}
