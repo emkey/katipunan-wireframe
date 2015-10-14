@@ -1,0 +1,16 @@
+.button-group{
+	.button {
+		margin: 0px;
+		border-radius: 0px;
+	&:last-child{
+		border-top-right-radius: $rounded-corners;
+		border-bottom-right-radius: $rounded-corners;
+	}
+	&:first-child{
+		border-top-left-radius: $rounded-corners;
+		border-bottom-left-radius: $rounded-corners;
+	}
+		
+	}
+
+}

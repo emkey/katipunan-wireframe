@@ -16,7 +16,7 @@
 			<img src="http://placehold.it/640x360">
 		</div>
 		
-		<div class="card small-12 medium-5 large-4 column">
+		<div class="card small-12 medium-5 large-4 column medium-push-7 large-reset-order">
 			<header class="card-header">
 				<small>22 Views</small>
 			</header>
@@ -68,11 +68,20 @@
 						</div>
 					</div>
 
+					<div class="data-set">
+						<div class="data-label">
+								Ad ID
+							</div>
+						<div class="data-content">
+								123456
+							</div>
+					</div>
+					
 				</div>
 			</div>
 		</div>	
 		
-		<div class="card small-12 medium-7 large-8 column end">
+		<div class="card small-12 medium-7 large-8 column end medium-pull-5 large-reset-order">
 			<header class="card-header">
 				<small>Description</small>
 			</header>
@@ -84,6 +93,21 @@
 			</div>
 		</div>
 	</div>
+	<div class="contact-bar hide-for-large-up">
+		<div class="button-group">
+			<a href="" class="button">Call</a><a href="" class="button">SMS</a><a href="" class="button">Message</a>
+		</div>
+	</div>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- One Web - Responsive -->
+<ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-5208720551736603"
+    data-ad-slot="3696676253"
+    data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <?php include('footer.php'); ?>
 <!-- end of ad content -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
