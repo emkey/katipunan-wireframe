@@ -8,6 +8,7 @@
 		<script src="bower_components/modernizr/modernizr.js"></script>
 	</head>
 	<body>
+
 <?php include('topbar.php'); ?>
 	
 	<div class="row">
@@ -16,70 +17,127 @@
 			<img src="http://placehold.it/640x360">
 		</div>
 		
-		<div class="card small-12 medium-5 large-4 column medium-push-7 large-reset-order">
-			<header class="card-header">
-				<small>22 Views</small>
+		<div class="small-12 medium-5 large-4 column medium-push-7 large-reset-order">
+			<div class="card">
+				<header class="card-header">
+					<small>22 Views</small>
+				</header>
+				<div class="card-body">
+					<div class="table-data">
+						
+						<div class="data-set">
+							<div class="data-label">
+								<div class="label">Price</div>
+							</div>
+							<div class="small-7 column data-content">
+								<strong>PHP 1,999</strong>
+							</div>
+						</div>
+						
+						<div class="data-set">
+							<div class="data-label">
+								<div class="label">Contact Number</div>
+							</div>
+							<div class="data-content">
+								<a href="" class="button success">0917-6315010</a>
+							</div>
+						</div>
+						
+						<div class="data-set">
+							<div class="data-label">
+								Date Posted
+							</div>
+							<div class="data-content">
+								Oct 12, 2015
+							</div>
+						</div>
+						
+						<div class="data-set">
+							<div class="data-label">
+								Condition
+							</div>
+							<div class="data-content">
+								2nd Hand (used)
+							</div>
+						</div>
+						
+						<div class="data-set">
+							<div class="data-label">
+								Location
+							</div>
+							<div class="data-content">
+								<a href="">Taguig City, Metro Manila</a>
+							</div>
+						</div>
+	
+						<div class="data-set">
+							<div class="data-label">
+									Ad ID
+								</div>
+							<div class="data-content">
+									123456
+								</div>
+						</div>
+						
+						<a href="#" data-reveal-id="sendPM" class="button hollow display-block text-center">Send a Private Message</a>
+						<div id="sendPM" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+							 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+							<h2>Contact</h2>
+							<form>
+								<textarea>
+									Enter your message
+								</textarea>
+								<input type="submit" class="button display-block success" value="Send Message" />
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<header class="card-header">
+				Seller Info
 			</header>
-			<div class="card-body">
-				<div class="table-data">
-					
+				<div class="card-body">
 					<div class="data-set">
 						<div class="data-label">
-							<div class="label">Price</div>
+							<div class="label">Username</div>
 						</div>
 						<div class="small-7 column data-content">
-							<strong>PHP 1,999</strong>
+							<a href="#"><strong>mllacsamana</strong></a>
 						</div>
-					</div>
-					
-					<div class="data-set">
 						<div class="data-label">
-							<div class="label">Contact Number</div>
+							<div class="label">User Address</div>
 						</div>
-						<div class="data-content">
-							<a href="" class="button success">0917-6315010</a>
+						<div class="small-7 column data-content">
+							<small>Manila, Metro Manila</small>
 						</div>
-					</div>
-					
-					<div class="data-set">
 						<div class="data-label">
-							Date Posted
+							<div class="label">Last Accessed</div>
 						</div>
-						<div class="data-content">
-							Oct 12, 2015
+						<div class="small-7 column data-content">
+							<small>Philippines</small>
 						</div>
-					</div>
-					
-					<div class="data-set">
+						
 						<div class="data-label">
-							Condition
+							<div class="label">Registered</div>
 						</div>
-						<div class="data-content">
-							2nd Hand (used)
+						<div class="small-7 column data-content">
+							<small>14 October 2003</small>
 						</div>
-					</div>
-					
-					<div class="data-set">
+						
 						<div class="data-label">
-							Location
+							<div class="label">Last Login</div>
 						</div>
-						<div class="data-content">
-							<a href="">Taguig City, Metro Manila</a>
+						<div class="small-7 column data-content">
+							<small>6 days ago</small>
 						</div>
+						
 					</div>
-
-					<div class="data-set">
-						<div class="data-label">
-								Ad ID
-							</div>
-						<div class="data-content">
-								123456
-							</div>
-					</div>
-					
 				</div>
 			</div>
 		</div>	
+		
+		
 		
 		<div class="card small-12 medium-7 large-8 column end medium-pull-5 large-reset-order">
 			<header class="card-header">
@@ -93,11 +151,15 @@
 			</div>
 		</div>
 	</div>
+	
 	<div class="contact-bar hide-for-large-up">
 		<div class="button-group">
-			<a href="" class="button">Call</a><a href="" class="button">SMS</a><a href="" class="button">Message</a>
+			<a href="" class="call button">Call</a><a href="" class="sms button">SMS</a><a href="" data-reveal-id="sendPM" class="chat button">
+				Message
+			</a>
 		</div>
 	</div>
+	
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- One Web - Responsive -->
 <ins class="adsbygoogle"

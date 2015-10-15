@@ -11,3 +11,17 @@ input{
 	font-size: $body-fontsize;
 	line-height: $body-lineheight;
 }
+
+textarea{
+	@extend .padding-base;
+	@extend .display-block;
+	@extend .border-radius;
+	@extend .border-width;
+	@extend .border-subtle;
+	@extend .border-solid;
+	@extend .display-block;
+	font-family: $body-typeface;
+	width: 100%;
+	height: 180px;
+	resize: none;
+}
