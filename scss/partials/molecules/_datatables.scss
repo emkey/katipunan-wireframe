@@ -9,12 +9,12 @@
 		font-weight: 500;
 		font-size: 0.7em;
 		color: $subtle;
-		@extend .padding-top-base;
-		@extend .padding-bottom-base;
+		@extend .padding-top-half;
+		@extend .padding-bottom-half;
 	}
 	.data-content{
-		@extend .padding-top-base;
-		@extend .padding-bottom-base;
+		@extend .padding-top-half;
+		@extend .padding-bottom-half;
 		@include grid-column(7);
 		line-height: $body-lineheight;
 	}
