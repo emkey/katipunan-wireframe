@@ -3,17 +3,17 @@
 	position: fixed;
 	bottom: 0px;
 	z-index: 999;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.8);
 	width: 100%;
-	.button-group{
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
-		display: flex;
-		-webkit-flex-flow: row wrap;
-		justify-content: space-around;
-		
+	.small-block-grid-3{
+		padding-bottom: 0px;
+		padding-left: 8px;
+		padding-right: 8px;
+		li{
+			padding: 0px;
+			margin: 0px;
+		}
+	}
 		.button{
 			@extend .hollow;
 			@extend .padding-top-large;
@@ -23,6 +23,7 @@
 			text-align: center;
 			border-color: $success;
 			font-size: 0.8em;
+			
 			&:nth-child(2){
 				color: $white;
 				background-color: $success;
@@ -40,6 +41,8 @@
 			background-repeat: no-repeat;
 			background-size: 16px 16px;
 			background-position: center 4px;
+			border-top-right-radius: 0px;
+			border-bottom-right-radius: 0px;
 			&:hover{
 				background-image: url('../images/contact-icons/Call%20White@2x.png');
 			}
@@ -49,6 +52,9 @@
 			background-repeat: no-repeat;
 			background-size: 16px 16px;
 			background-position: center 4px;
+			background-color: $success;
+			color: $white;
+			border-radius: 0px;
 			&:hover{
 				background-image: url('../images/contact-icons/SMS%20White@2x.png');
 			}
@@ -58,9 +64,10 @@
 			background-repeat: no-repeat;
 			background-size: 16px 16px;
 			background-position: center 4px;
+			border-top-left-radius: 0px;
+			border-bottom-left-radius: 0px;
 			&:hover{
 				background-image: url('../images/contact-icons/chat%20White@2x.png');
 			}
 		}
-	}
 }

@@ -1,5 +1,13 @@
 <footer id="global-footer">
 	<div class="row">
+		<div class="small-12 medium-3 column">
+		<a href="#" class="sell button display-block text-center margin-top-base margin-bottom-base"><span class="free"></span><span class="show-for-large-up">Sell an Item Now!</span><span class="show-for-small">Sell an Item Now!</span><span class="show-for-medium">Sell Now</span></a>
+		</div>
+		<div class="small-12 medium-3 end column">
+			<a href="#" class="button display-block text-center margin-top-base margin-bottom-base">Manage Ads</a>
+		</div>
+	</div>
+	<div class="row">
 		<div class="small-12 medium-4 columns">
 			<h2><small>OLX</small></h2>
 			<ul>

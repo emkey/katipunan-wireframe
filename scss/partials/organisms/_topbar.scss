@@ -26,14 +26,13 @@
 	.header-logo{
 		background-image: url(../images/header-logo.png);
 		background-repeat: no-repeat;
-		background-size: 80% auto;
+		background-size: 88px 88px;
 		background-position: center center;
 		height: rem-calc(56px);
 		text-indent: -100%;
 		white-space: nowrap;
 		@include grid-column($collapse: true);
 		@media #{$medium-up} {
-			background-size: 60%;
 		}
 	}
 }

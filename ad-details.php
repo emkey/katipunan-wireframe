@@ -15,7 +15,7 @@
 	<div class="row">
 		<header class="small-12 column"><h1 class="ad-title">Lorem Ipsum Dolor Sit Amet</h1></header>
 		<div class="gallery small-12 medium-12 large-8 large-reset-order column">
-			<div class="orbit-container">
+			<div class="orbit-container" data-options="navigation_arrows:true;">
 				<ul class="example-orbit-content" data-orbit>
 					<li data-orbit-slide="headline-1">
 						<img src="http://placehold.it/640x360">
@@ -109,7 +109,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="adbox sideadbox hide-for-large">
+			<div class="adbox sideadbox hide-for-large-up">
 				This is an adbox
 			</div>
 		</div>
@@ -183,17 +183,14 @@
 				This is an adbox
 			</div>
 		</div>
-	
-
-
 	</div>
 	
 	<div class="contact-bar hide-for-large-up">
-		<div class="button-group">
-			<a href="" class="call button">Call</a><a href="" class="sms button">SMS</a><a href="" data-reveal-id="sendPM" class="chat button">
-				Message
-			</a>
-		</div>
+		<ul class="small-block-grid-3">
+			<li><a href="" class="call button hollow contact display-block text-center"><small>Call</small></a></li>
+			<li><a href="" class="sms button contact display-block text-center"><small>SMS</small></a></li>
+			<li><a href="" data-reveal-id="sendPM" class="chat button hollow contact display-block text-center"><small>Message</small></a></li>
+		</ul>
 	</div>
 	
 	<div class="row margin-top-base">
@@ -206,7 +203,7 @@
 	</div>
 	
 	<div class="row">
-		<div class="small-12 medium-8 medium-centered column">
+		<div class="small-12 column">
 			<div class="adbox margin-top-large margin-bottom-large">
 				This is an adbox
 			</div>

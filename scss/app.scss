@@ -186,3 +186,8 @@
 			height: 250px !important;
 		} 
 	}
+@media only screen and (max-width: 40em) {
+  .orbit-container .orbit-next,
+  .orbit-container .orbit-prev {
+    display: block; }
+}
