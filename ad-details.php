@@ -10,7 +10,16 @@
 	<body>
 
 <?php include('topbar.php'); ?>
-	
+	<div class="row">
+		<div class="small-12 column">
+			<ul class="breadcrumbs">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Features</a></li>
+			<li class="unavailable"><a href="#">Gene Splicing</a></li>
+			<li class="current"><a href="#">Cloning</a></li>
+			</ul>
+		</div>
+	</div>
 	<div class="row">
 		<header class="small-12 column"><h1 class="ad-title">Lorem Ipsum Dolor Sit Amet</h1></header>
 		<div class="gallery small-12 medium-12 large-8 large-reset-order column">
@@ -32,6 +41,7 @@
 
 		<div class="small-12 medium-5 medium-push-7 large-4 large-reset-order  column">
 			<div class="card" id="ad-data">
+				
 				<header class="card-header">
 					<small>22 Views</small>
 				</header>
