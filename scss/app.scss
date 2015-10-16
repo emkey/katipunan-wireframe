@@ -172,3 +172,17 @@
 	display: block;
 	}
 }
+.adbox{
+	background: #999;
+	color: $white;
+	height: 88px;
+	@extend .margin-top-half;
+	@extend .margin-bottom-half;
+
+}
+
+	.sideadbox{
+		@media only screen and (min-width: 40.063em) { 
+			height: 250px !important;
+		} 
+	}

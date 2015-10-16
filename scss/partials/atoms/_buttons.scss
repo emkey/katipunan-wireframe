@@ -68,6 +68,7 @@
 			border-color: lighten($success, 5%);
 		}
 	}
+	&.small{
+		@extend .padding-half;
+	}
 }
-
-

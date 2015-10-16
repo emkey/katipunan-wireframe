@@ -10,16 +10,8 @@
 	<body>
 
 <?php include('topbar.php'); ?>
-	<div class="row">
-		<div class="small-12 column">
-			<ul class="breadcrumbs">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Features</a></li>
-			<li class="unavailable"><a href="#">Gene Splicing</a></li>
-			<li class="current"><a href="#">Cloning</a></li>
-			</ul>
-		</div>
-	</div>
+
+
 	<div class="row">
 		<header class="small-12 column"><h1 class="ad-title">Lorem Ipsum Dolor Sit Amet</h1></header>
 		<div class="gallery small-12 medium-12 large-8 large-reset-order column">
@@ -38,10 +30,10 @@
 			</div>
 		</div>
 
-
+		
 		<div class="small-12 medium-5 medium-push-7 large-4 large-reset-order  column">
+
 			<div class="card" id="ad-data">
-				
 				<header class="card-header">
 					<small>22 Views</small>
 				</header>
@@ -117,11 +109,13 @@
 					</div>
 				</div>
 			</div>
+			<div class="adbox sideadbox hide-for-large">
+				This is an adbox
+			</div>
 		</div>
-	
 		
-
 		<div class="small-12 medium-7 medium-pull-5 large-8 large-reset-order  column">
+			
 			<div class="card description">
 				<header class="card-header">
 					<small>Description</small>
@@ -133,9 +127,15 @@
 					</a>
 				</div>
 			</div>
+			<div class="adbox  hide-for-large">
+				Ad box
+			</div>
 		</div>
 
 		<div class="card small-12 medium-5 large-4 medium-offset-7 large-offset-0 large-reset-order column" id="seller-data">
+			<div class="adbox sideadbox hide-for-medium-down">
+				This is an adbox
+			</div>
 			<header class="card-header">
 					Seller Info
 			</header>
@@ -179,6 +179,9 @@
 					
 				</div>
 			</div>
+			<div class="adbox show-for-large sideadbox">
+				This is an adbox
+			</div>
 		</div>
 	
 
@@ -193,8 +196,25 @@
 		</div>
 	</div>
 	
+	<div class="row margin-top-base">
+		<div class="small-6 medium-4 large-2 column">
+			<a href="" class="button small display-block text-center hollow"><small>&laquo; back to results</small></a>
+		</div>
+		<div class="small-6 medium-4 large-2 column">
+			<a href="" class="button small display-block text-center hollow"><small>next ad &raquo;</small></a>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="small-12 medium-8 medium-centered column">
+			<div class="adbox margin-top-large margin-bottom-large">
+				This is an adbox
+			</div>
+		</div>
+	</div>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- One Web - Responsive -->
+<!-- 
 <ins class="adsbygoogle"
     style="display:block"
     data-ad-client="ca-pub-5208720551736603"
@@ -203,6 +223,7 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+-->
 <?php include('footer.php'); ?>
 <!-- end of ad content -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>

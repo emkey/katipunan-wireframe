@@ -2,6 +2,7 @@
 	@extend .margin-top-base;
 	@extend .margin-bottom-base;
 	@extend .border-radius;
+
 }
 .card-header{
 	@extend .padding-base;
@@ -12,4 +13,8 @@
 	@extend .padding-base;
 	border: 1px solid $alabaster;
 	background-color: $white;
+	&.sidebox{
+		width: 307px;
+		height: 250px;
+	}
 }
