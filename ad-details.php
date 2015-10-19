@@ -201,7 +201,64 @@
 			<a href="" class="button small display-block text-center hollow"><small>next ad &raquo;</small></a>
 		</div>
 	</div>
-	
+	<div class="row">
+		<div class="small-12 column">
+			<h2><small>Other people are viewing</small></h2>
+		</div>
+		<div class="small-12 medium-6 large-3 column">
+			<div class="card adListing">
+				<div class="card-body">
+					<div class="ad-thumbnail">
+						<img src="http://placehold.it/640x360">
+					</div>
+					<div class="ad-meta">
+						<h3><small>Hello</small></h3>
+						<strong>P1200</strong>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="small-12 medium-6 large-3 column">
+			<div class="card adListing">
+				<div class="card-body">
+					<div class="ad-thumbnail">
+						<img src="http://placehold.it/640x360">
+					</div>
+					<div class="ad-meta">
+						<h3><small>Hello</small></h3>
+						<strong>P1200</strong>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="small-12 medium-6 large-3 column">
+			<div class="card adListing">
+				<div class="card-body">
+					<div class="ad-thumbnail">
+						<img src="http://placehold.it/640x360">
+					</div>
+					<div class="ad-meta">
+						<h3><small>Hello</small></h3>
+						<strong>P1200</strong>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="small-12 medium-6 large-3 column">
+			<div class="card adListing">
+				<div class="card-body">
+					<div class="ad-thumbnail">
+						<img src="http://placehold.it/640x360">
+					</div>
+					<div class="ad-meta">
+						<h3><small>Hello</small></h3>
+						<strong>P1200</strong>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
 	<div class="row">
 		<div class="small-12 column">
 			<div class="adbox margin-top-large margin-bottom-large">
