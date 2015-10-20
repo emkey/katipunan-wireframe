@@ -146,7 +146,7 @@
 						<div class="label">Username</div>
 					</div>
 					<div class="small-7 column data-content">
-						<a href="#"><strong>mllacsamana</strong></a>
+						<a href="#"><strong>Mark Lester</strong></a>
 					</div>
 					
 					<div class="data-label">
@@ -178,6 +178,7 @@
 					</div>
 					
 				</div>
+				<a href="" class="button success display-block text-center">Chat Seller</a>
 			</div>
 			<div class="adbox show-for-large sideadbox">
 				This is an adbox
