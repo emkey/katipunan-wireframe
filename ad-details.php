@@ -201,69 +201,136 @@
 			<a href="" class="button small display-block text-center hollow"><small>next ad &raquo;</small></a>
 		</div>
 	</div>
-	<div class="row">
+	<div class="adListings">
 		<div class="small-12 column">
 			<h2><small>Other people are viewing</small></h2>
 		</div>
-		<div class="small-12 medium-6 large-3 column">
-			<div class="card adListing">
-				<div class="card-body">
-					<div class="ad-thumbnail">
-						<img src="http://placehold.it/640x360">
-					</div>
-					<div class="ad-meta">
-						<h3><small>Hello</small></h3>
-						<strong>P1200</strong>
-					</div>
-				</div>
+		
+		<div class="adListing-item">
+			<div class="adThumbnail" style="">
+			</div>
+			<div class="adMeta">
+				<h3><small>Hello</small></h3>
+				<strong class="price">P1200</strong>
 			</div>
 		</div>
-		<div class="small-12 medium-6 large-3 column">
-			<div class="card adListing">
-				<div class="card-body">
-					<div class="ad-thumbnail">
-						<img src="http://placehold.it/640x360">
-					</div>
-					<div class="ad-meta">
-						<h3><small>Hello</small></h3>
-						<strong>P1200</strong>
-					</div>
-				</div>
+		<div class="adListing-item">
+			<div class="adThumbnail" style="">
+			</div>
+			<div class="adMeta">
+				<h3><small>Hello</small></h3>
+				<strong class="price">P1200</strong>
 			</div>
 		</div>
-		<div class="small-12 medium-6 large-3 column">
-			<div class="card adListing">
-				<div class="card-body">
-					<div class="ad-thumbnail">
-						<img src="http://placehold.it/640x360">
-					</div>
-					<div class="ad-meta">
-						<h3><small>Hello</small></h3>
-						<strong>P1200</strong>
-					</div>
-				</div>
+		<div class="adListing-item">
+			<div class="adThumbnail" style="">
+			</div>
+			<div class="adMeta">
+				<h3><small>Hello</small></h3>
+				<strong class="price">P1200</strong>
 			</div>
 		</div>
-		<div class="small-12 medium-6 large-3 column">
-			<div class="card adListing">
-				<div class="card-body">
-					<div class="ad-thumbnail">
-						<img src="http://placehold.it/640x360">
-					</div>
-					<div class="ad-meta">
-						<h3><small>Hello</small></h3>
-						<strong>P1200</strong>
-					</div>
-				</div>
+		
+		<div class="adListing-item">
+			<div class="adThumbnail">
+			</div>
+			<div class="adMeta">
+				<h3><small>Hello</small></h3>
+				<strong class="price">P1200</strong>
 			</div>
 		</div>
-
 	</div>
 	<div class="row">
 		<div class="small-12 column">
 			<div class="adbox margin-top-large margin-bottom-large">
 				This is an adbox
 			</div>
+		</div>
+	</div>
+		<div class="adListings">
+		<div class="small-12 column">
+			<h2><small>Other people are viewing</small></h2>
+		</div>
+		
+		<div class="adListing-item">
+			<div class="adThumbnail" style="">
+			</div>
+			<div class="adMeta">
+				<h3><small>Hello</small></h3>
+				<strong class="price">P1200</strong>
+			</div>
+		</div>
+		<div class="adListing-item">
+			<div class="adThumbnail" style="">
+			</div>
+			<div class="adMeta">
+				<h3><small>Hello</small></h3>
+				<strong class="price">P1200</strong>
+			</div>
+		</div>
+		<div class="adListing-item">
+			<div class="adThumbnail" style="">
+			</div>
+			<div class="adMeta">
+				<h3><small>Hello</small></h3>
+				<strong class="price">P1200</strong>
+			</div>
+		</div>
+		
+		<div class="adListing-item">
+			<div class="adThumbnail">
+			</div>
+			<div class="adMeta">
+				<h3><small>Hello</small></h3>
+				<strong class="price">P1200</strong>
+			</div>
+		</div>
+	</div>
+		<div class="adListings">
+		<div class="small-12 column">
+			<h2><small>Other people are viewing</small></h2>
+		</div>
+		
+		<div class="adListing-item">
+			<div class="adThumbnail" style="">
+			</div>
+			<div class="adMeta">
+				<h3><small>Hello</small></h3>
+				<strong class="price">P1200</strong>
+			</div>
+		</div>
+		<div class="adListing-item">
+			<div class="adThumbnail" style="">
+			</div>
+			<div class="adMeta">
+				<h3><small>Hello</small></h3>
+				<strong class="price">P1200</strong>
+			</div>
+		</div>
+		<div class="adListing-item">
+			<div class="adThumbnail" style="">
+			</div>
+			<div class="adMeta">
+				<h3><small>Hello</small></h3>
+				<strong class="price">P1200</strong>
+			</div>
+		</div>
+		
+		<div class="adListing-item">
+			<div class="adThumbnail">
+			</div>
+			<div class="adMeta">
+				<h3><small>Hello</small></h3>
+				<strong class="price">P1200</strong>
+			</div>
+		</div>
+	</div>
+	<div class="row margin-top-base">
+		<div class="small-6 medium-4 large-2 column">
+			<a href="" class="button small display-block text-center hollow"><small>&laquo; back to results</small></a>
+		</div>
+		<div class="small-6 medium-4 large-2 column">
+			<a href="" class="button small display-block text-center hollow"><small>next ad &raquo;</small></a>
 		</div>
 	</div>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
