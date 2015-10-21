@@ -10,9 +10,7 @@
 }
 
 .adListing-item{
-	@include grid-column(12);
-	@extend .card;
-	
+	@include grid-column(12);	
 	@media #{$medium-up}{
 		@include grid-column(6);
 		
@@ -20,6 +18,7 @@
 	@media #{$large-up}{
 		@include grid-column(3);
 	}
+
 }
 .adThumbnail{
 	@include grid-column(5);

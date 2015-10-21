@@ -43,7 +43,9 @@
 	 "partials/atoms",
 	 "partials/molecules",
 	 "partials/organisms";
-
+body{
+	background-color: darken($alabaster, 0.1%);
+}
 .has-form {
   position: absolute;
   top: 0;

@@ -2,6 +2,7 @@
 	@extend .margin-top-base;
 	@extend .margin-bottom-base;
 	@extend .border-radius;
+	overflow: hidden;
 }
 .card-header{
 	@extend .padding-base;
@@ -10,7 +11,7 @@
 }
 .card-body{
 	@extend .padding-base;
-	border: 1px solid $alabaster;
+	border: 1px solid darken($alabaster, 2%);
 	background-color: $white;
 	&.sidebox{
 		width: 307px;

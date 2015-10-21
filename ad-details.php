@@ -31,9 +31,9 @@
 		</div>
 
 		
-		<div class="small-12 medium-5 medium-push-7 large-4 large-reset-order  column">
+		<div class="ad-data">
 
-			<div class="card" id="ad-data">
+			<div class="card">
 				<header class="card-header">
 					<small>22 Views</small>
 				</header>
@@ -114,9 +114,9 @@
 			</div>
 		</div>
 		
-		<div class="small-12 medium-7 medium-pull-5 large-8 large-reset-order  column">
+		<div class="ad-description">
 			
-			<div class="card description">
+			<div class="card">
 				<header class="card-header">
 					<small>Description</small>
 				</header>
@@ -127,61 +127,60 @@
 					</a>
 				</div>
 			</div>
-			<div class="adbox  hide-for-large">
+			<div class="adbox">
 				Ad box
 			</div>
 		</div>
 
-		<div class="card small-12 medium-5 large-4 medium-offset-7 large-offset-0 large-reset-order column" id="seller-data">
+		<div class="seller-data">
 			<div class="adbox sideadbox hide-for-medium-down">
 				This is an adbox
 			</div>
-			<header class="card-header">
-					Seller Info
-			</header>
-			<div class="card-body">
-				<div class="data-set">
-					
-					<div class="data-label">
-						<div class="label">Username</div>
+			<div class="card">
+				<header class="card-header">
+						Seller Info
+				</header>
+				<div class="card-body">
+					<div class="data-set">
+						
+						<div class="data-label">
+							<div class="label">Username</div>
+						</div>
+						<div class="small-7 column data-content">
+							<a href="#"><strong>Mark Lester</strong></a>
+						</div>
+						
+						<div class="data-label">
+							<div class="label">User Address</div>
+						</div>
+						<div class="small-7 column data-content">
+							<small>Manila, Metro Manila</small>
+						</div>
+						
+						<div class="data-label">
+							<div class="label">Last Accessed</div>
+						</div>
+						<div class="small-7 column data-content">
+							<small>Philippines</small>
+						</div>
+						
+						<div class="data-label">
+							<div class="label">Registered</div>
+						</div>
+						<div class="small-7 column data-content">
+							<small>14 October 2003</small>
+						</div>
+						
+						<div class="data-label">
+							<div class="label">Last Login</div>
+						</div>
+						<div class="small-7 column data-content">
+							<small>6 days ago</small>
+						</div>
+						
 					</div>
-					<div class="small-7 column data-content">
-						<a href="#"><strong>Mark Lester</strong></a>
-					</div>
-					
-					<div class="data-label">
-						<div class="label">User Address</div>
-					</div>
-					<div class="small-7 column data-content">
-						<small>Manila, Metro Manila</small>
-					</div>
-					
-					<div class="data-label">
-						<div class="label">Last Accessed</div>
-					</div>
-					<div class="small-7 column data-content">
-						<small>Philippines</small>
-					</div>
-					
-					<div class="data-label">
-						<div class="label">Registered</div>
-					</div>
-					<div class="small-7 column data-content">
-						<small>14 October 2003</small>
-					</div>
-					
-					<div class="data-label">
-						<div class="label">Last Login</div>
-					</div>
-					<div class="small-7 column data-content">
-						<small>6 days ago</small>
-					</div>
-					
+					<a href="" class="button success display-block text-center">Chat Seller</a>
 				</div>
-				<a href="" class="button success display-block text-center">Chat Seller</a>
-			</div>
-			<div class="adbox show-for-large sideadbox">
-				This is an adbox
 			</div>
 		</div>
 	</div>
@@ -208,36 +207,44 @@
 		</div>
 		
 		<div class="adListing-item">
-			<div class="adThumbnail" style="">
-			</div>
-			<div class="adMeta">
-				<h3><small>Hello</small></h3>
-				<strong class="price">P1200</strong>
-			</div>
-		</div>
-		<div class="adListing-item">
-			<div class="adThumbnail" style="">
-			</div>
-			<div class="adMeta">
-				<h3><small>Hello</small></h3>
-				<strong class="price">P1200</strong>
+			<div class="card">
+				<div class="adThumbnail" style="">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
 			</div>
 		</div>
 		<div class="adListing-item">
-			<div class="adThumbnail" style="">
+			<div class="card">
+				<div class="adThumbnail" style="">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
 			</div>
-			<div class="adMeta">
-				<h3><small>Hello</small></h3>
-				<strong class="price">P1200</strong>
+		</div>
+		<div class="adListing-item">
+			<div class="card">
+				<div class="adThumbnail" style="">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
 			</div>
 		</div>
 		
 		<div class="adListing-item">
-			<div class="adThumbnail">
-			</div>
-			<div class="adMeta">
-				<h3><small>Hello</small></h3>
-				<strong class="price">P1200</strong>
+			<div class="card">
+				<div class="adThumbnail" style="">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -254,36 +261,44 @@
 		</div>
 		
 		<div class="adListing-item">
-			<div class="adThumbnail" style="">
-			</div>
-			<div class="adMeta">
-				<h3><small>Hello</small></h3>
-				<strong class="price">P1200</strong>
-			</div>
-		</div>
-		<div class="adListing-item">
-			<div class="adThumbnail" style="">
-			</div>
-			<div class="adMeta">
-				<h3><small>Hello</small></h3>
-				<strong class="price">P1200</strong>
+			<div class="card">
+				<div class="adThumbnail" style="">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
 			</div>
 		</div>
 		<div class="adListing-item">
-			<div class="adThumbnail" style="">
+			<div class="card">
+				<div class="adThumbnail" style="">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
 			</div>
-			<div class="adMeta">
-				<h3><small>Hello</small></h3>
-				<strong class="price">P1200</strong>
+		</div>
+		<div class="adListing-item">
+			<div class="card">
+				<div class="adThumbnail" style="">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
 			</div>
 		</div>
 		
 		<div class="adListing-item">
-			<div class="adThumbnail">
-			</div>
-			<div class="adMeta">
-				<h3><small>Hello</small></h3>
-				<strong class="price">P1200</strong>
+			<div class="card">
+				<div class="adThumbnail" style="">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -293,36 +308,44 @@
 		</div>
 		
 		<div class="adListing-item">
-			<div class="adThumbnail" style="">
-			</div>
-			<div class="adMeta">
-				<h3><small>Hello</small></h3>
-				<strong class="price">P1200</strong>
-			</div>
-		</div>
-		<div class="adListing-item">
-			<div class="adThumbnail" style="">
-			</div>
-			<div class="adMeta">
-				<h3><small>Hello</small></h3>
-				<strong class="price">P1200</strong>
+			<div class="card">
+				<div class="adThumbnail" style="">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
 			</div>
 		</div>
 		<div class="adListing-item">
-			<div class="adThumbnail" style="">
+			<div class="card">
+				<div class="adThumbnail" style="">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
 			</div>
-			<div class="adMeta">
-				<h3><small>Hello</small></h3>
-				<strong class="price">P1200</strong>
+		</div>
+		<div class="adListing-item">
+			<div class="card">
+				<div class="adThumbnail" style="">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
 			</div>
 		</div>
 		
 		<div class="adListing-item">
-			<div class="adThumbnail">
-			</div>
-			<div class="adMeta">
-				<h3><small>Hello</small></h3>
-				<strong class="price">P1200</strong>
+			<div class="card">
+				<div class="adThumbnail" style="">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
 			</div>
 		</div>
 	</div>
