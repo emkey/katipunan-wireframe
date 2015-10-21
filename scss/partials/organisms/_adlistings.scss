@@ -1,3 +1,5 @@
+// Ad Boxes
+
 .adListings{
 	@include grid-row();
 	margin-bottom: 0px;
@@ -44,4 +46,22 @@
 	@media #{$large-up} {
 		@include grid-column(12);
 	}
+}
+
+// Ad Filters
+
+.filter-fixed-bar{
+	@include grid-row();
+	@extend .padding-top-base;
+	@extend .padding-bottom-base;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 999;
+	background-color: rgba(255,255,255,0.8);
+}
+.filter-action{
+	@include grid-column(12);
+
 }
