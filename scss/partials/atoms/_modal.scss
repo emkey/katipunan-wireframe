@@ -1,0 +1,7 @@
+.reveal-modal{
+	padding: 0;
+	h2{
+		@extend .padding-base;
+		@extend .margin-0
+	}
+}

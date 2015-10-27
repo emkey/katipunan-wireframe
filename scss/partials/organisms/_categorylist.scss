@@ -1,0 +1,26 @@
+.card-category{
+	@extend .card;
+	margin: 0px;
+}
+
+.list-category{
+	@include grid-row();
+	
+}
+.card-category{
+	@include grid-column(
+		$columns: 12,
+		$collapse: true
+	);
+	
+	border-radius: 0px;
+	a{
+		@extend .padding-medium;
+		@extend .display-block;
+	}
+}
+.reveal-modal{
+	.list-category{
+		width: 100%;
+	}
+}
