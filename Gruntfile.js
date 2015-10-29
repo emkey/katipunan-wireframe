@@ -12,10 +12,44 @@ module.exports = function(grunt) {
           sourceMap: true,
         },
         files: {
-          'css/app.css': 'scss/app.scss'
+          'web/css/app.css': 'scss/app.scss'
         }
       }
     },
+copy: {
+	main: {
+		files: 
+		[{
+			expand: true,
+			src: ['bower_components/foundation/js/foundation.min.js'],
+			dest: 'web/js/',
+			flatten: true,
+			filter: 'isFile',
+		},
+		{
+			expand: true,
+			src: ['bower_components/jquery/dist/jquery.min.js'],
+			dest: 'web/js/',
+			flatten: true,
+			filter: 'isFile',
+		},
+		{
+			expand: true,
+			src: ['bower_components/modernizr/modernizr.js'],
+			dest: 'web/js/',
+			flatten: true,
+			filter: 'isFile',
+		},
+		{
+			expand: true,
+			src: ['js/app.js'],
+			dest: 'web/js/',
+			flatten: true,
+			filter: 'isFile',
+		},
+		],
+	},
+},
 
     watch: {
       grunt: {
@@ -34,7 +68,9 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-copy');
+
 
   grunt.registerTask('build', ['sass']);
-  grunt.registerTask('default', ['build','watch']);
+  grunt.registerTask('default', ['build', 'copy', 'watch']);
 }

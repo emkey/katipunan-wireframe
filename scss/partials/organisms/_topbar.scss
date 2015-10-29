@@ -1,5 +1,14 @@
 #global-header{
 	background-color: $olx-cerulean;
+	.global-search{
+		@include grid-column(9);
+		@media #{$medium-up} {
+			@include grid-column(10);
+		}
+		@media #{$large-up} {
+			@include grid-column(10);
+		}
+	}
 	.search{
 		@extend .margin-top-base;
 		@extend .margin-bottom-base;
@@ -24,16 +33,25 @@
 		}
 	}
 	.header-logo{
-		background-image: url(../images/header-logo.png);
+		@include grid-column(
+			$columns: 3
+		);
+		background-image: url('../../images/header-logo.png');
 		background-repeat: no-repeat;
-		background-size: 48px;
-		background-position: 8px center;
+		background-position: left center;
+		background-origin: content-box;
+		-moz-background-origin: content-box;
+		background-size: 40px;
 		height: rem-calc(56px);
 		text-indent: -100%;
 		white-space: nowrap;
-		@include grid-column($collapse: true);
-		@media #{$large-up} {
+		@media #{$medium-up} {
+			@include grid-column(2);
 			background-size: 88px;
+		}
+		@media #{$large-up} {
+			@include grid-column(2);
+			background-size: 96px;
 		}
 	}
 }

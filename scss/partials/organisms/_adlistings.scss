@@ -9,6 +9,9 @@
 	h3{
 		margin: 0px;
 	}
+	&.sponsored .adMeta{
+		background-color: lighten(#FEF8B5, 5%);
+	}
 }
 
 .adListing-item{

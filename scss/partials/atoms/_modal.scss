@@ -1,7 +1,14 @@
 .reveal-modal{
 	padding: 0;
 	h2{
-		@extend .padding-base;
-		@extend .margin-0
+		@extend .padding-left-base;
+		@extend .padding-right-base;
+		@extend .padding-top-base;
+		@extend .margin-0;
+	}
+	h3{
+		@extend .padding-left-base;
+		@extend .padding-right-base;
+		@extend .margin-0;
 	}
 }

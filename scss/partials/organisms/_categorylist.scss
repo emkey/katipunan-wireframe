@@ -12,8 +12,7 @@
 		$columns: 12,
 		$collapse: true
 	);
-	
-	border-radius: 0px;
+	border-bottom: 1px solid $alabaster;
 	a{
 		@extend .padding-medium;
 		@extend .display-block;

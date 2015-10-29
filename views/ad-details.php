@@ -4,8 +4,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 		<title>Ad Title | OLX.ph</title>
-		<link rel="stylesheet" href="css/app.css" />
-		<script src="bower_components/modernizr/modernizr.js"></script>
+		<link rel="stylesheet" href="../web/css/app.css" />
+		<script src="../web/js/modernizr.js"></script>
 	</head>
 	<body>
 
@@ -64,7 +64,22 @@
 								<a href="" class="button success">0917-6315010</a>
 							</div>
 						</div>
-						
+						<div class="data-set">
+							<div class="data-label">
+								Category
+							</div>
+							<div class="data-content">
+								<small>Category A</small>
+							</div>
+						</div>
+						<div class="data-set">
+							<div class="data-label">
+								Date Created
+							</div>
+							<div class="data-content">
+								<small>Oct 12, 2015</small>
+							</div>
+						</div>
 						<div class="data-set">
 							<div class="data-label">
 								Date Posted
@@ -372,8 +387,6 @@
 -->
 <?php include('footer.php'); ?>
 <!-- end of ad content -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
+<?php include('scripts.php'); ?>
   </body>
 </html>

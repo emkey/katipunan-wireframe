@@ -24,8 +24,8 @@
 			</ul>
 		</div>
 		<div class="small-12 medium-4 columns">
-			<a href=""><img src="images/androidstore-badge.png" alt="androidstore-badge" width="129" height="45" /></a>
-			<a href=""><img src="images/applestore-badge.png" alt="applestore-badge" width="135" height="40" /></a>
+			<a href=""><img src="../images/androidstore-badge.png" alt="androidstore-badge" width="129" height="45" /></a>
+			<a href=""><img src="../images/applestore-badge.png" alt="applestore-badge" width="135" height="40" /></a>
 		</div>
 		<div class="small-12 columns copyright">
 			Copyright &copy; 2006-2015 <a href="">OLX Philippines</a>

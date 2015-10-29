@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 		<title>Ad Title | OLX.ph</title>
-		<link rel="stylesheet" href="css/app.css" />
+		<link rel="stylesheet" href="../css/app.css" />
 		<script src="bower_components/modernizr/modernizr.js"></script>
 	</head>
 	<body>
@@ -59,8 +59,8 @@
 				<a href="" class="button">Button</a> <a href="" class="button neutral">Secondary Button</a> <a href="" class="button error"> Error</a> <a href="" class="button warning">Warning</a> <a href="" class="button hollow">Hollow</a> <a href="" class="button disabled">Disabled</a> <a href="" class="button success">Success</a>
 			</div>
 		</div>
-	<?php include ('footer.php'); ?>
-	<?php include('scripts.php'); ?>
+	<?php include ('includes/footer.php'); ?>
+	<?php include('includes/scripts.php'); ?>
 
   </body>
 </html>

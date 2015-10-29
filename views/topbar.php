@@ -1,10 +1,10 @@
 <!-- topbar -->
 <header id="global-header">
 	<div class="row">
-		<a href="#" class="header-logo columns small-2">
+		<a href="#" class="header-logo">
 			OLX.ph
 		</a>
-		<div class="columns small-10">
+		<div class="global-search">
 			<form class="search">
 					<input type="text" placeholder="Search" class="search-field" />
 					<div class="search-locationfilter show-for-large-up">
