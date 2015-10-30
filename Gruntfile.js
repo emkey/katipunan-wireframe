@@ -72,5 +72,6 @@ copy: {
 
 
   grunt.registerTask('build', ['sass']);
-  grunt.registerTask('default', ['build', 'copy', 'watch']);
+  grunt.registerTask('copyJS', ['copy']);
+  grunt.registerTask('default', ['build', 'copyJS', 'watch']);
 }

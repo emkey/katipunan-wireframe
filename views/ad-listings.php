@@ -25,24 +25,29 @@
     </aside>
 		
 <!-- Ad Content -->
-
-		<div class="adListings">
+	<div class="search-meta row">
+		<div class="small-12 columns">
+		<h2><small>18 results for &ldquo;Phones&rdquo;</small></h2>
+		</div>
+	</div>
+	<div class="adListings">
 		<div class="adListing-item sponsored">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>
 					<strong class="price">P1200</strong>
+					
 				</div>
 			</div>
 		</div>
 		<?php 
-		for ($i = 0; $i < 7; $i++) {	
+		for ($i = 0; $i < 9; $i++) {	
 		?>
 		<div class="adListing-item">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>
@@ -61,7 +66,7 @@
 		?>
 		<div class="adListing-item">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>
@@ -72,7 +77,7 @@
 		<?php } ?>
 		<div class="adListing-item sponsored">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>
@@ -83,11 +88,11 @@
 		
 	</div>
 		<nav class="row">
-		<div class="small-6 column text-center">
-			<a href="#" class="button display-block">Previous</a>
+		<div class="small-6 medium-4 column text-center">
+			<a href="#" class="button display-block hollow">Previous</a>
 		</div>
-		<div class="small-6 column text-center">
-			<a href="#" class="button display-block">Next</a>
+		<div class="small-6 medium-4 column text-center">
+			<a href="#" class="button display-block hollow">Next</a>
 		</div>
 	</nav>
 		<div class="row margin-top-medium">

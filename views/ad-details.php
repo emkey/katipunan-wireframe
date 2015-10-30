@@ -224,7 +224,7 @@
 		
 		<div class="adListing-item">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>
@@ -234,7 +234,7 @@
 		</div>
 		<div class="adListing-item">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>
@@ -244,7 +244,7 @@
 		</div>
 		<div class="adListing-item">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>
@@ -255,7 +255,7 @@
 		
 		<div class="adListing-item">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>
@@ -278,7 +278,7 @@
 		
 		<div class="adListing-item">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>
@@ -288,7 +288,7 @@
 		</div>
 		<div class="adListing-item">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>
@@ -298,7 +298,7 @@
 		</div>
 		<div class="adListing-item">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>
@@ -309,7 +309,7 @@
 		
 		<div class="adListing-item">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>
@@ -325,7 +325,7 @@
 		
 		<div class="adListing-item">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>
@@ -335,7 +335,7 @@
 		</div>
 		<div class="adListing-item">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>
@@ -345,7 +345,7 @@
 		</div>
 		<div class="adListing-item">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>
@@ -356,7 +356,7 @@
 		
 		<div class="adListing-item">
 			<div class="card">
-				<div class="adThumbnail" style="">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
 				<div class="adMeta">
 					<h3><small>Hello</small></h3>

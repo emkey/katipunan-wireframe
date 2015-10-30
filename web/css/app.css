@@ -3265,7 +3265,7 @@ textarea {
     background-color: #f5c350;
     border-color: #f5c350; }
   .button.hollow, .search .search-locationfilter .button, .contact-bar .button {
-    background-color: #FFFFFF;
+    background-color: transparent;
     color: #168ECA; }
     .button.hollow:hover, .search .search-locationfilter .button:hover, .contact-bar .button:hover {
       background-color: #168ECA;
@@ -3289,7 +3289,7 @@ textarea {
       box-sizing: border-box;
       border: 4px solid #FF7900;
       background-color: #FFFFFF;
-      background-image: url('../../images/sell-icons.png');
+      background-image: url('../../web/images/sell-icons.png');
       background-repeat: no-repeat;
       background-position: center center;
       background-size: 28px 28px;
@@ -3458,7 +3458,7 @@ textarea {
     padding-right: 0.9375rem;
     width: 25%;
     float: left;
-    background-image: url('../../images/header-logo.png');
+    background-image: url('../../web/images/header-logo.png');
     background-repeat: no-repeat;
     background-position: left center;
     background-origin: content-box;
@@ -3542,16 +3542,16 @@ textarea {
       background-color: #c1d400;
       color: #FFFFFF; }
   .contact-bar .call {
-    background-image: url('../../images/contact-icons/Call%20Green@2x.png');
+    background-image: url('../../web/images/contact-icons/Call%20Green@2x.png');
     background-repeat: no-repeat;
     background-size: 16px 16px;
     background-position: center 4px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px; }
     .contact-bar .call:hover {
-      background-image: url('../../images/contact-icons/Call%20White@2x.png'); }
+      background-image: url('../../web/images/contact-icons/Call%20White@2x.png'); }
   .contact-bar .sms {
-    background-image: url('../../images/contact-icons/SMS%20White@2x.png');
+    background-image: url('../../web/images/contact-icons/SMS%20White@2x.png');
     background-repeat: no-repeat;
     background-size: 16px 16px;
     background-position: center 4px;
@@ -3559,16 +3559,16 @@ textarea {
     color: #FFFFFF;
     border-radius: 0px; }
     .contact-bar .sms:hover {
-      background-image: url('../../images/contact-icons/SMS%20White@2x.png'); }
+      background-image: url('../../web/images/contact-icons/SMS%20White@2x.png'); }
   .contact-bar .private-message, .contact-bar .chat {
-    background-image: url('../../images/contact-icons/Chat%20Green@2x.png');
+    background-image: url('../../web/images/contact-icons/Chat%20Green@2x.png');
     background-repeat: no-repeat;
     background-size: 16px 16px;
     background-position: center 4px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px; }
     .contact-bar .private-message:hover, .contact-bar .chat:hover {
-      background-image: url('../../images/contact-icons/Chat%20White@2x.png'); }
+      background-image: url('../../web/images/contact-icons/Chat%20White@2x.png'); }
 
 .adListings {
   margin: 0 auto;
@@ -3610,7 +3610,6 @@ textarea {
   padding-right: 0.9375rem;
   width: 41.6666666667%;
   float: left;
-  background-image: url('http://placehold.it/640x360');
   min-height: 120px;
   background-position: center center;
   background-size: cover;

@@ -27,7 +27,6 @@
 }
 .adThumbnail{
 	@include grid-column(5);
-	background-image: url('http://placehold.it/640x360'); 
 	min-height: 120px; 
 	background-position: center center; 
 	background-size: cover;

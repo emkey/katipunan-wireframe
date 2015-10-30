@@ -44,7 +44,7 @@
 		}
 	}
 	&.hollow{
-		background-color: $white;
+		background-color: transparent;
 		color: $blue;
 		&:hover{
 			background-color: $blue;
@@ -83,7 +83,7 @@ height: 48px;
 box-sizing: border-box;
 border: 4px solid $olx-orange;
 background-color: $white;
-background-image: url('../../images/sell-icons.png');
+background-image: url('../../web/images/sell-icons.png');
 background-repeat: no-repeat;
 background-position: center center;
 background-size: 28px 28px;

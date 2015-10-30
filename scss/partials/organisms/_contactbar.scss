@@ -37,18 +37,18 @@
 			}
 		}
 		.call{
-			background-image: url('../../images/contact-icons/Call%20Green@2x.png');
+			background-image: url('../../web/images/contact-icons/Call%20Green@2x.png');
 			background-repeat: no-repeat;
 			background-size: 16px 16px;
 			background-position: center 4px;
 			border-top-right-radius: 0px;
 			border-bottom-right-radius: 0px;
 			&:hover{
-				background-image: url('../../images/contact-icons/Call%20White@2x.png');
+				background-image: url('../../web/images/contact-icons/Call%20White@2x.png');
 			}
 		}
 		.sms{
-			background-image: url('../../images/contact-icons/SMS%20White@2x.png');
+			background-image: url('../../web/images/contact-icons/SMS%20White@2x.png');
 			background-repeat: no-repeat;
 			background-size: 16px 16px;
 			background-position: center 4px;
@@ -56,18 +56,18 @@
 			color: $white;
 			border-radius: 0px;
 			&:hover{
-				background-image: url('../../images/contact-icons/SMS%20White@2x.png');
+				background-image: url('../../web/images/contact-icons/SMS%20White@2x.png');
 			}
 		}
 		.private-message, .chat{
-			background-image: url('../../images/contact-icons/Chat%20Green@2x.png');
+			background-image: url('../../web/images/contact-icons/Chat%20Green@2x.png');
 			background-repeat: no-repeat;
 			background-size: 16px 16px;
 			background-position: center 4px;
 			border-top-left-radius: 0px;
 			border-bottom-left-radius: 0px;
 			&:hover{
-				background-image: url('../../images/contact-icons/Chat%20White@2x.png');
+				background-image: url('../../web/images/contact-icons/Chat%20White@2x.png');
 			}
 		}
 }
