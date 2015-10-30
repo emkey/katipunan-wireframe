@@ -1,12 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-		<title>Ad Listing | OLX.ph</title>
-		<link rel="stylesheet" href="../web/css/app.css" />
-		<script src="../web/js/modernizr.js"></script>
-	</head>
+<?php include_once('global-header.php'); ?>
 	<body>
 <?php include('topbar.php'); ?>
 <div class="off-canvas-wrap" data-offcanvas>
@@ -32,6 +26,7 @@
 	</div>
 	<div class="adListings">
 		<div class="adListing-item sponsored">
+			<a href="#">
 			<div class="card">
 				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
@@ -41,11 +36,13 @@
 					
 				</div>
 			</div>
+			</a>
 		</div>
 		<?php 
-		for ($i = 0; $i < 9; $i++) {	
+		for ($i = 0; $i < 7; $i++) {	
 		?>
 		<div class="adListing-item">
+			<a href="#">
 			<div class="card">
 				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 				</div>
@@ -54,6 +51,7 @@
 					<strong class="price">P1200</strong>
 				</div>
 			</div>
+			</a>
 		</div>
 		<?php } ?>
 		<div class="small-12 column">
@@ -87,70 +85,94 @@
 		</div>
 		
 	</div>
-		<nav class="row">
-		<div class="small-6 medium-4 column text-center">
+	<nav class="row">
+		<div class="small-6 medium-4 large-3 column text-center">
 			<a href="#" class="button display-block hollow">Previous</a>
 		</div>
-		<div class="small-6 medium-4 column text-center">
+		<div class="small-6 medium-4 large-3 column text-center">
 			<a href="#" class="button display-block hollow">Next</a>
 		</div>
 	</nav>
-		<div class="row margin-top-medium">
+	<div class="row margin-top-medium">
 		<div class="small-12 column">
 			<a href="#" class="left-off-canvas-toggle filter-button button display-block text-center">Filter</a>
 		</div>
 	</div>
 		
-		<!-- Reveal Modals begin -->
+	<!-- Reveal Modals begin -->
+	
+	
 		<!-- this show the primary categories -->
 		<div id="filterModal-category" class="reveal-modal" data-reveal aria-labelledby="filterCategories" aria-hidden="true" role="dialog">
-		<h2 id="filterCategories">Select Category</h2>
-		<div class="list-category">
-			
-			<div class="card-category">
-				<a href="#" data-reveal-id="filterModal-category-second">Category A</a>
+			<h2 id="filterCategories">Select Category</h2>
+			<div class="list-category">	
+				<div class="card-category">
+					<a href="#" data-reveal-id="filterModal-category-second">Category A</a>
+				</div>
+				<div class="card-category">
+					<a href="#">Category B</a>
+				</div>
+				<div class="card-category">
+					<a href="#">Category C</a>
+				</div>
 			</div>
-			<div class="card-category">
-				<a href="#">Category B</a>
-			</div>
-			<div class="card-category">
-				<a href="#">Category C</a>
-			</div>
+			<a class="close-reveal-modal" aria-label="Close">&#215;</a>
 		</div>
-		<a class="close-reveal-modal" aria-label="Close">&#215;</a>
-	</div>
 		<!-- end of primary categories -->
 	
 		<!-- this shows secondary categories -->
 		<div id="filterModal-category-second" class="reveal-modal" data-reveal aria-labelledby="filterSubcategories" aria-hidden="true" role="dialog">
-		<h2 id="filterSubcategories">Select Category</h2>
-		<div class="card-category">
-			<a href="#" data-reveal-id="filterModal-category-second">Select all in Category A</a>
+			<h2 id="filterSubcategories">Select Category</h2>
+			<div class="list-category">
+				<div class="card-category">
+					<a href="#" data-reveal-id="filterModal-category-second">Select all in Category A</a>
+				</div>
+				<div class="card-category">
+					<a href="#" data-reveal-id="filterModal-category-second">Subcategory A</a>
+				</div>
+				<div class="card-category">
+					<a href="#">Subcategory B</a>
+				</div>
+				<div class="card-category">
+					<a href="#">Subcategory C</a>
+				</div>
+			</div>
+			<a class="close-reveal-modal" aria-label="Close">&#215;</a>
 		</div>
-		<div class="card-category">
-			<a href="#" data-reveal-id="filterModal-category-second">Subcategory A</a>
-		</div>
-		<div class="card-category">
-			<a href="#">Subcategory B</a>
-		</div>
-		<div class="card-category">
-			<a href="#">Subcategory C</a>
-		</div>
-		<a class="close-reveal-modal" aria-label="Close">&#215;</a>
-	</div>
 		<!-- this ends secondary categories-->
+		
+		
 		<!-- Sort by Modal -->
 		<div id="filterModal-sort" class="reveal-modal tiny" data-reveal aria-labelledby="filterModal-sortBy" aria-hidden="true" role="dialog">
-		<h2 id="filterModal-sortBy">Sort By</h2>
-		<a class="close-reveal-modal" aria-label="Close">&#215;</a>
-		<div class="row margin-top-medium">
-			<div class="small-12 column">
-				<a href="" class="button display-block text-center hollow margin-bottom-base">Cheapest First</a>
-				<a href="" class="button display-block text-center hollow">Date Posted</a>
+			<h2 id="filterModal-sortBy">Sort By</h2>
+			<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+			<div class="row margin-top-medium">
+				<div class="small-12 column">
+					<a href="" class="button display-block text-center hollow margin-bottom-base">Cheapest First</a>
+					<a href="" class="button display-block text-center hollow">Date Posted</a>
+				</div>
 			</div>
 		</div>
-	</div>
 		<!-- End sort by Modal -->
+	
+		<!-- this shows locations -->
+		<div id="filterModal-location" class="reveal-modal small" data-reveal aria-labelledby="filterLocations" aria-hidden="true" role="dialog">
+			<h2 id="filterLocations">Locations</h2>
+			<div class="list-category">
+				<div class="card-category">
+					<a href="#" data-reveal-id="filterModal-category-second">Location A</a>
+				</div>
+				<div class="card-category">
+					<a href="#">Location B</a>
+				</div>
+				<div class="card-category">
+					<a href="#">Location C</a>
+				</div>
+			</div>
+			<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+		</div>
+		<!-- this ends locations-->
+		
 		<!-- this the app push -->
 		<div id="filterModal-appPush" class="reveal-modal" data-reveal aria-labelledby="filterAppPush" aria-hidden="true" role="dialog">
 		<h2 id="filterappPush">App push</h2>

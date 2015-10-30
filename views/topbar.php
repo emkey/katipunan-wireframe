@@ -8,7 +8,7 @@
 			<form class="search">
 					<input type="text" placeholder="Search" class="search-field" />
 					<div class="search-locationfilter show-for-large-up">
-						<a href="#" class="button secondary">All Philippines</a>
+						<a href="#" class="button secondary" data-reveal-id="filterModal-location">All Philippines</a>
 					</div>
 					<a href="" class="button show-for-medium-up search-submit">Search</a>
 			</form>
