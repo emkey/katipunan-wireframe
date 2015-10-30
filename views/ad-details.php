@@ -314,52 +314,52 @@
 			</div>
 		</div>
 	</div>
-		<div class="adListings">
+	<div class="adListings">
+			
 		<div class="small-12 column">
 			<h2><small>Other people are viewing</small></h2>
 		</div>
+		<div class="adListing-item">
+			<div class="card">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
+			</div>
+		</div>
+		<div class="adListing-item">
+			<div class="card">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
+			</div>
+		</div>
+		<div class="adListing-item">
+			<div class="card">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
+			</div>
+		</div>
+		<div class="adListing-item">
+			<div class="card">
+				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
+				</div>
+				<div class="adMeta">
+					<h3><small>Hello</small></h3>
+					<strong class="price">P1200</strong>
+				</div>
+			</div>
+		</div>
 		
-		<div class="adListing-item">
-			<div class="card">
-				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
-				</div>
-				<div class="adMeta">
-					<h3><small>Hello</small></h3>
-					<strong class="price">P1200</strong>
-				</div>
-			</div>
-		</div>
-		<div class="adListing-item">
-			<div class="card">
-				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
-				</div>
-				<div class="adMeta">
-					<h3><small>Hello</small></h3>
-					<strong class="price">P1200</strong>
-				</div>
-			</div>
-		</div>
-		<div class="adListing-item">
-			<div class="card">
-				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
-				</div>
-				<div class="adMeta">
-					<h3><small>Hello</small></h3>
-					<strong class="price">P1200</strong>
-				</div>
-			</div>
-		</div>
-		
-		<div class="adListing-item">
-			<div class="card">
-				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
-				</div>
-				<div class="adMeta">
-					<h3><small>Hello</small></h3>
-					<strong class="price">P1200</strong>
-				</div>
-			</div>
-		</div>
 	</div>
 	<div class="row margin-top-base">
 		<div class="small-6 medium-4 large-2 column">
@@ -369,20 +369,10 @@
 			<a href="" class="button small display-block text-center hollow"><small>next ad &raquo;</small></a>
 		</div>
 	</div>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- One Web - Responsive -->
-<!-- 
-<ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-5208720551736603"
-    data-ad-slot="3696676253"
-    data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
--->
+<?php include('modals.php'); ?>
 <?php include('footer.php'); ?>
 <!-- end of ad content -->
+
 <?php include('scripts.php'); ?>
   </body>
 </html>

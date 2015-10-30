@@ -4,185 +4,105 @@
 	<body>
 <?php include('topbar.php'); ?>
 <div class="off-canvas-wrap" data-offcanvas>
-	
+
 	<div class="inner-wrap">
 		<div class="inner-inner-wrap">
-		<aside class="left-off-canvas-menu">
-        <!-- whatever you want goes here -->
-		<ul class="off-canvas-list">
-			<li><label>Filters</label></li>
-			<li><a href="#" data-reveal-id="filterModal-sort">Sort by: Cheapest First</a></li>
-			<li><a href="#" data-reveal-id="filterModal-category">Change Category</a></li>
-			<li><a href="#" data-reveal-id="filterModal-location">Change Location</a></li>
-			<li><a href="#" data-reveal-id="filterModal-appPush">Advanced Filter</a></li>
-		</ul>
-    </aside>
+			<aside class="left-off-canvas-menu">
+	        <!-- whatever you want goes here -->
+				<ul class="off-canvas-list">
+					<li><label>Filters</label></li>
+					<li><a href="#" data-reveal-id="filterModal-sort">Sort by: Cheapest First</a></li>
+					<li><a href="#" data-reveal-id="filterModal-category">Change Category</a></li>
+					<li><a href="#" data-reveal-id="filterModal-location">Change Location</a></li>
+					<li><a href="#" data-reveal-id="filterModal-appPush">Advanced Filter</a></li>
+				</ul>
+			</aside>
 		
-<!-- Ad Content -->
-	<div class="search-meta row">
-		<div class="small-12 columns">
-		<h2><small>18 results for &ldquo;Phones&rdquo;</small></h2>
-		</div>
-	</div>
-	<div class="adListings">
-		<div class="adListing-item sponsored">
-			<a href="#">
-			<div class="card">
-				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
-				</div>
-				<div class="adMeta">
-					<h3><small>Hello</small></h3>
-					<strong class="price">P1200</strong>
-					
+			<!-- Ad Content -->
+			<div class="search-meta row">
+				<div class="small-12 columns">
+				<h2><small>18 results for &ldquo;Phones&rdquo;</small></h2>
 				</div>
 			</div>
-			</a>
-		</div>
-		<?php 
-		for ($i = 0; $i < 7; $i++) {	
-		?>
-		<div class="adListing-item">
-			<a href="#">
-			<div class="card">
-				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
+			<div class="adListings">
+				<div class="adListing-item sponsored">
+					<a href="#">
+					<div class="card">
+						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
+						</div>
+						<div class="adMeta">
+							<h3><small>Hello</small></h3>
+							<strong class="price">P1200</strong>
+							
+						</div>
+					</div>
+					</a>
 				</div>
-				<div class="adMeta">
-					<h3><small>Hello</small></h3>
-					<strong class="price">P1200</strong>
+				<?php 
+				for ($i = 0; $i < 7; $i++) {	
+				?>
+				<div class="adListing-item">
+					<a href="#">
+					<div class="card">
+						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
+						</div>
+						<div class="adMeta">
+							<h3><small>Hello</small></h3>
+							<strong class="price">P1200</strong>
+						</div>
+					</div>
+					</a>
 				</div>
+				<?php } ?>
+				<div class="small-12 column">
+					<div class="adbox display-block text-center">
+						Ad Box
+					</div>
+				</div>
+				<?php 
+				for ($i = 0; $i < 7; $i++) {	
+				?>
+				<div class="adListing-item">
+					<div class="card">
+						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
+						</div>
+						<div class="adMeta">
+							<h3><small>Hello</small></h3>
+							<strong class="price">P1200</strong>
+						</div>
+					</div>
+				</div>
+				<?php } ?>
+				<div class="adListing-item sponsored">
+					<div class="card">
+						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
+						</div>
+						<div class="adMeta">
+							<h3><small>Hello</small></h3>
+							<strong class="price">P1200</strong>
+						</div>
+					</div>
+				</div>
+				
 			</div>
-			</a>
-		</div>
-		<?php } ?>
-		<div class="small-12 column">
-			<div class="adbox display-block text-center">
-				Ad Box
-			</div>
-		</div>
-		<?php 
-		for ($i = 0; $i < 7; $i++) {	
-		?>
-		<div class="adListing-item">
-			<div class="card">
-				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
+			<nav class="row">
+				<div class="small-6 medium-4 large-3 column text-center">
+					<a href="#" class="button display-block hollow">Previous</a>
 				</div>
-				<div class="adMeta">
-					<h3><small>Hello</small></h3>
-					<strong class="price">P1200</strong>
+				<div class="small-6 medium-4 large-3 column text-center">
+					<a href="#" class="button display-block hollow">Next</a>
 				</div>
-			</div>
-		</div>
-		<?php } ?>
-		<div class="adListing-item sponsored">
-			<div class="card">
-				<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
-				</div>
-				<div class="adMeta">
-					<h3><small>Hello</small></h3>
-					<strong class="price">P1200</strong>
-				</div>
-			</div>
-		</div>
-		
-	</div>
-	<nav class="row">
-		<div class="small-6 medium-4 large-3 column text-center">
-			<a href="#" class="button display-block hollow">Previous</a>
-		</div>
-		<div class="small-6 medium-4 large-3 column text-center">
-			<a href="#" class="button display-block hollow">Next</a>
-		</div>
-	</nav>
-	<div class="row margin-top-medium">
-		<div class="small-12 column">
-			<a href="#" class="left-off-canvas-toggle filter-button button display-block text-center">Filter</a>
-		</div>
-	</div>
-		
-	<!-- Reveal Modals begin -->
-	
-	
-		<!-- this show the primary categories -->
-		<div id="filterModal-category" class="reveal-modal" data-reveal aria-labelledby="filterCategories" aria-hidden="true" role="dialog">
-			<h2 id="filterCategories">Select Category</h2>
-			<div class="list-category">	
-				<div class="card-category">
-					<a href="#" data-reveal-id="filterModal-category-second">Category A</a>
-				</div>
-				<div class="card-category">
-					<a href="#">Category B</a>
-				</div>
-				<div class="card-category">
-					<a href="#">Category C</a>
-				</div>
-			</div>
-			<a class="close-reveal-modal" aria-label="Close">&#215;</a>
-		</div>
-		<!-- end of primary categories -->
-	
-		<!-- this shows secondary categories -->
-		<div id="filterModal-category-second" class="reveal-modal" data-reveal aria-labelledby="filterSubcategories" aria-hidden="true" role="dialog">
-			<h2 id="filterSubcategories">Select Category</h2>
-			<div class="list-category">
-				<div class="card-category">
-					<a href="#" data-reveal-id="filterModal-category-second">Select all in Category A</a>
-				</div>
-				<div class="card-category">
-					<a href="#" data-reveal-id="filterModal-category-second">Subcategory A</a>
-				</div>
-				<div class="card-category">
-					<a href="#">Subcategory B</a>
-				</div>
-				<div class="card-category">
-					<a href="#">Subcategory C</a>
-				</div>
-			</div>
-			<a class="close-reveal-modal" aria-label="Close">&#215;</a>
-		</div>
-		<!-- this ends secondary categories-->
-		
-		
-		<!-- Sort by Modal -->
-		<div id="filterModal-sort" class="reveal-modal tiny" data-reveal aria-labelledby="filterModal-sortBy" aria-hidden="true" role="dialog">
-			<h2 id="filterModal-sortBy">Sort By</h2>
-			<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+			</nav>
 			<div class="row margin-top-medium">
 				<div class="small-12 column">
-					<a href="" class="button display-block text-center hollow margin-bottom-base">Cheapest First</a>
-					<a href="" class="button display-block text-center hollow">Date Posted</a>
+					<a href="#" class="left-off-canvas-toggle filter-button button display-block text-center">Filter</a>
 				</div>
 			</div>
-		</div>
-		<!-- End sort by Modal -->
-	
-		<!-- this shows locations -->
-		<div id="filterModal-location" class="reveal-modal small" data-reveal aria-labelledby="filterLocations" aria-hidden="true" role="dialog">
-			<h2 id="filterLocations">Locations</h2>
-			<div class="list-category">
-				<div class="card-category">
-					<a href="#" data-reveal-id="filterModal-category-second">Location A</a>
-				</div>
-				<div class="card-category">
-					<a href="#">Location B</a>
-				</div>
-				<div class="card-category">
-					<a href="#">Location C</a>
-				</div>
-			</div>
-			<a class="close-reveal-modal" aria-label="Close">&#215;</a>
-		</div>
-		<!-- this ends locations-->
-		
-		<!-- this the app push -->
-		<div id="filterModal-appPush" class="reveal-modal" data-reveal aria-labelledby="filterAppPush" aria-hidden="true" role="dialog">
-		<h2 id="filterappPush">App push</h2>
-		<a class="close-reveal-modal" aria-label="Close">&#215;</a>
-	</div>
-		<!-- end of app push -->
-		<a class="exit-off-canvas"></a>
-		<!-- end of ad content -->
 
-		<?php include('footer.php'); ?>
+			<a class="exit-off-canvas"></a>
+			<!-- end of ad content -->
+			<?php include_once ('modals.php');?>
+			<?php include('footer.php'); ?>
 		</div>
 	</div>
 </div>
