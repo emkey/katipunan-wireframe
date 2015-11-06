@@ -4,6 +4,12 @@
 	@include grid-row();
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+	.adSense-item{
+		@include grid-column(12);
+		.adMeta{
+			@include grid-column(12);
+		}
+	}
 }
 .adListing-item{
 	h3{
@@ -42,6 +48,7 @@
 	@include grid-column(7);
 	@extend .card-body;
 	min-height: 120px;
+	color: $grey1;
 	@media #{$medium-up} { 
 		@include grid-column(7);
 	}
@@ -65,5 +72,4 @@
 }
 .filter-action{
 	@include grid-column(12);
-
 }

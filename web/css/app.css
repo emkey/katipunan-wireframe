@@ -3581,6 +3581,16 @@ textarea {
     display: table; }
   .adListings:after {
     clear: both; }
+  .adListings .adSense-item {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 100%;
+    float: left; }
+    .adListings .adSense-item .adMeta {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem;
+      width: 100%;
+      float: left; }
 
 .adListing-item h3 {
   margin: 0px; }
@@ -3632,7 +3642,8 @@ textarea {
   padding-right: 0.9375rem;
   width: 58.3333333333%;
   float: left;
-  min-height: 120px; }
+  min-height: 120px;
+  color: #333333; }
   @media only screen and (min-width:40.0625em) {
     .adMeta {
       padding-left: 0.9375rem;
@@ -3887,7 +3898,7 @@ body {
 
 .inner-inner-wrap {
   overflow: scroll;
-  max-height: 102vh;
-  min-width: 102%; }
+  max-height: 100vh;
+  min-width: 100%; }
 
 /*# sourceMappingURL=app.css.map */
