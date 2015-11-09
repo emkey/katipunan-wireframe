@@ -150,16 +150,7 @@
 						Ad Box
 					</div>
 				</div>
-				<div class="adSense-item">
-					<a href="#">
-					<div class="card">
-						<div class="adMeta">
-							<h3><small>Adsense Ad Title</small></h3>
-							<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small>
-						</div>
-					</div>
-					</a>
-				</div>
+				
 			</div>
 			<nav class="row">
 				<div class="small-6 medium-4 large-3 column text-center">
@@ -169,6 +160,17 @@
 					<a href="#" class="button display-block hollow">Next</a>
 				</div>
 			</nav>
+			
+			<div class="adSense-item">
+					<a href="#">
+					<div class="card">
+						<div class="adMeta">
+							<h3><small>Adsense Ad Title</small></h3>
+							<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small>
+						</div>
+					</div>
+					</a>
+				</div>
 			<?php
 				}
 				else {
@@ -273,18 +275,19 @@
 				<div class="small-6 medium-4 large-3 column text-center">
 					<a href="#" class="button display-block hollow">Next</a>
 				</div>
-			</nav>	
+			</nav>
+			<div class="row margin-top-medium">
+				<div class="small-12 column">
+					<a href="#" class="left-off-canvas-toggle filter-button button display-block text-center">Filter</a>
+				</div>
+			</div>
 			<?php
 				} 	/* otherwise, include the default page */
 				
 			?>
 			<!-- Ad Content -->
 			
-			<div class="row margin-top-medium">
-				<div class="small-12 column">
-					<a href="#" class="left-off-canvas-toggle filter-button button display-block text-center">Filter</a>
-				</div>
-			</div>
+			
 			<a class="exit-off-canvas"></a>
 			<!-- end of ad content -->
 			
