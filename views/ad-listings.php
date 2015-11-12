@@ -17,6 +17,16 @@
 					<li><a href="#" data-reveal-id="filterModal-appPush">Advanced Filter</a></li>
 				</ul>
 			</aside>
+			<aside class="bottom-off-canvas-menu">
+	        <!-- whatever you want goes here -->
+				<ul class="off-canvas-list">
+					<li><label>Filters</label></li>
+					<li><a href="#" data-reveal-id="filterModal-sort">Sort by: Cheapest First</a></li>
+					<li><a href="#" data-reveal-id="filterModal-category">Change Category</a></li>
+					<li><a href="#" data-reveal-id="filterModal-location">Change Location</a></li>
+					<li><a href="#" data-reveal-id="filterModal-appPush">Advanced Filter</a></li>
+				</ul>
+			</aside>
 
 
 			<?php
@@ -262,25 +272,30 @@
 						</div>
 					</div>
 				</div>
+				
+			</div>
+			<div class="row">
+				<div class="small-12 large-12 end column">
+					<a href="#" class="hide-for-large-up left-off-canvas-toggle filter-button button display-block text-center">Filter</a>
+					<div class="button-group">
+						<a href="" class="button neutral text-center"><small>Sort: By Price</small></a><a href="" class="button neutral text-center"><small>Change Category</small></a><a href="" data-reveal-id="sendPM" class="button neutral text-center"><small>Change Location</small></a><a href="" data-reveal-id="sendPM" class="button neutral text-center"><small>Advanced Filters</small></a>
+					</div>
+				</div>
+			</div>
+			<nav class="row margin-top-medium">
+				<div class="small-6 medium-4 large-3 column text-center">
+					<a href="#" class="button display-block hollow">Previous</a>
+				</div>
+				<div class="small-6 medium-4 large-offset-6 large-3 column text-center">
+					<a href="#" class="button display-block hollow">Next</a>
+				</div>
 				<div class="small-12 column">
 					<div class="adbox display-block text-center">
 						Ad Box
 					</div>
 				</div>
-			</div>
-			<nav class="row">
-				<div class="small-6 medium-4 large-3 column text-center">
-					<a href="#" class="button display-block hollow">Previous</a>
-				</div>
-				<div class="small-6 medium-4 large-3 column text-center">
-					<a href="#" class="button display-block hollow">Next</a>
-				</div>
 			</nav>
-			<div class="row margin-top-medium">
-				<div class="small-12 column">
-					<a href="#" class="left-off-canvas-toggle filter-button button display-block text-center">Filter</a>
-				</div>
-			</div>
+			
 			<?php
 				} 	/* otherwise, include the default page */
 				
