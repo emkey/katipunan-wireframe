@@ -80,7 +80,7 @@
 						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 						</div>
 						<div class="adMeta">
-							<h3><small>Hello</small></h3>
+							<h3 class="ad-title">Hello</h3>
 							<strong class="price">P1200</strong>
 							
 						</div>
@@ -93,7 +93,7 @@
 						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 						</div>
 						<div class="adMeta">
-							<h3><small>Hello</small></h3>
+							<h3 class="ad-title">Hello</h3>
 							<strong class="price">P1200</strong>
 							
 						</div>
@@ -109,7 +109,7 @@
 						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 						</div>
 						<div class="adMeta">
-							<h3><small>Hello</small></h3>
+							<h3 class="ad-title">Hello</h3>
 							<strong class="price">P1200</strong>
 						</div>
 					</div>
@@ -129,7 +129,7 @@
 						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 						</div>
 						<div class="adMeta">
-							<h3><small>Hello</small></h3>
+							<h3 class="ad-title">Hello</h3>
 							<strong class="price">P1200</strong>
 						</div>
 					</div>
@@ -140,7 +140,7 @@
 						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 						</div>
 						<div class="adMeta">
-							<h3><small>Hello</small></h3>
+							<h3 class="ad-title">Hello</h3>
 							<strong class="price">P1200</strong>
 						</div>
 					</div>
@@ -150,7 +150,7 @@
 						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 						</div>
 						<div class="adMeta">
-							<h3><small>Hello</small></h3>
+							<h3 class="ad-title">Hello</h3>
 							<strong class="price">P1200</strong>
 						</div>
 					</div>
@@ -197,7 +197,7 @@
 						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 						</div>
 						<div class="adMeta">
-							<h3><small>Hello</small></h3>
+							<h3 class="ad-title">Hello</h3>
 							<strong class="price">P1200</strong>
 							
 						</div>
@@ -210,7 +210,7 @@
 						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 						</div>
 						<div class="adMeta">
-							<h3><small>Hello</small></h3>
+							<h3 class="ad-title">Hello</h3>
 							<strong class="price">P1200</strong>
 							
 						</div>
@@ -226,7 +226,7 @@
 						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 						</div>
 						<div class="adMeta">
-							<h3><small>Hello</small></h3>
+							<h3 class="ad-title">Hello</h3>
 							<strong class="price">P1200</strong>
 						</div>
 					</div>
@@ -246,7 +246,7 @@
 						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 						</div>
 						<div class="adMeta">
-							<h3><small>Hello</small></h3>
+							<h3 class="ad-title">Hello</h3>
 							<strong class="price">P1200</strong>
 						</div>
 					</div>
@@ -257,7 +257,7 @@
 						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 						</div>
 						<div class="adMeta">
-							<h3><small>Hello</small></h3>
+							<h3 class="ad-title">Hello</h3>
 							<strong class="price">P1200</strong>
 						</div>
 					</div>
@@ -267,7 +267,7 @@
 						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 						</div>
 						<div class="adMeta">
-							<h3><small>Hello</small></h3>
+							<h3 class="ad-title">Hello</h3>
 							<strong class="price">P1200</strong>
 						</div>
 					</div>
@@ -307,11 +307,10 @@
 			<!-- end of ad content -->
 			
 			<?php include_once ('modals.php');?>
-			
+			<?php include('footer.php'); ?>
 		</div>
 	</div>
 </div>
-<?php include('footer.php'); ?>
 <?php include('scripts.php'); ?>
   </body>
 </html>
