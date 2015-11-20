@@ -307,10 +307,11 @@
 			<!-- end of ad content -->
 			
 			<?php include_once ('modals.php');?>
-			<?php include('footer.php'); ?>
+			
 		</div>
 	</div>
 </div>
+<?php include('footer.php'); ?>
 <?php include('scripts.php'); ?>
   </body>
 </html>
