@@ -3,32 +3,9 @@
 <?php include_once('global-header.php'); ?>
 	<body>
 <?php include('topbar.php'); ?>
-<div class="off-canvas-wrap" data-offcanvas>
 
-	<div class="inner-wrap">
-		<div class="inner-inner-wrap">
-			<aside class="left-off-canvas-menu">
-	        <!-- whatever you want goes here -->
-				<ul class="off-canvas-list">
-					<li><label>Filters</label></li>
-					<li><a href="#" data-reveal-id="filterModal-sort">Sort by: Cheapest First</a></li>
-					<li><a href="#" data-reveal-id="filterModal-category">Change Category</a></li>
-					<li><a href="#" data-reveal-id="filterModal-location">Change Location</a></li>
-					<li><a href="#" data-reveal-id="filterModal-appPush">Advanced Filter</a></li>
-				</ul>
-			</aside>
-			<aside class="bottom-off-canvas-menu">
-	        <!-- whatever you want goes here -->
-				<ul class="off-canvas-list">
-					<li><label>Filters</label></li>
-					<li><a href="#" data-reveal-id="filterModal-sort">Sort by: Cheapest First</a></li>
-					<li><a href="#" data-reveal-id="filterModal-category">Change Category</a></li>
-					<li><a href="#" data-reveal-id="filterModal-location">Change Location</a></li>
-					<li><a href="#" data-reveal-id="filterModal-appPush">Advanced Filter</a></li>
-				</ul>
-			</aside>
-
-
+		
+			
 			<?php
 				$page = $_GET['page'];	/* gets the variable $page */
 				if ($page == "no-results"){
@@ -210,7 +187,7 @@
 						<div class="adThumbnail" style="background-image: url('http://placehold.it/640x360')">
 						</div>
 						<div class="adMeta">
-							<h3 class="ad-title">Hello</h3>
+							<h3 class="ad-title">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
 							<strong class="price">P1200</strong>
 							
 						</div>
@@ -276,9 +253,9 @@
 			</div>
 			<div class="row">
 				<div class="small-12 large-12 end column">
-					<a href="#" class="hide-for-large-up left-off-canvas-toggle filter-button button display-block text-center">Filter</a>
-					<div class="button-group">
-						<a href="" class="button neutral text-center"><small>Sort: By Price</small></a><a href="" class="button neutral text-center"><small>Change Category</small></a><a href="" data-reveal-id="sendPM" class="button neutral text-center"><small>Change Location</small></a><a href="" data-reveal-id="sendPM" class="button neutral text-center"><small>Advanced Filters</small></a>
+					<a href="#" data-reveal-id="filterModal-filters" class="hide-for-large-up left-off-canvas-toggle filter-button button display-block text-center">Filter</a>
+					<div class="button-group show-for-large-up">
+						<a href="" data-reveal-id="filterModal-sort" class="button neutral text-center"><small>Sort: By Price</small></a><a href="" data-reveal-id="filterModal-category" class="button neutral text-center"><small>Change Category</small></a><a href="" data-reveal-id="filterModal-location" class="button neutral text-center"><small>Change Location</small></a><a href="" data-reveal-id="filterModal-appPush" class="button neutral text-center"><small>Advanced Filters</small></a>
 					</div>
 				</div>
 			</div>
@@ -306,11 +283,8 @@
 			<a class="exit-off-canvas"></a>
 			<!-- end of ad content -->
 			
-			<?php include_once ('modals.php');?>
-			<?php include('footer.php'); ?>
-		</div>
-	</div>
-</div>
+<?php include_once ('modals.php');?>
+<?php include('footer.php'); ?>
 <?php include('scripts.php'); ?>
   </body>
 </html>

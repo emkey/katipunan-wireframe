@@ -3175,7 +3175,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  line-height: 130%; }
+  line-height: 120%; }
 
 h1 {
   font-size: 2rem; }
@@ -3302,6 +3302,9 @@ textarea {
 
 .reveal-modal {
   padding: 0; }
+  .reveal-modal .close-reveal-modal {
+    top: 0.2rem;
+    right: 0.5rem; }
 
 .search {
   margin: 0 auto;
@@ -3594,8 +3597,9 @@ textarea {
 
 .adListing-item .ad-title {
   font-size: 1rem;
-  margin: 0px;
-  height: 2rem; }
+  margin-bottom: 0px;
+  height: 2.4rem;
+  overflow: hidden; }
 .adListing-item.sponsored .adMeta {
   background-color: #feface; }
 

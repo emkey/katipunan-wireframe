@@ -1,5 +1,18 @@
 		
 	<!-- Reveal Modals begin -->
+		<div id="filterModal-filters" class="reveal-modal" data-reveal aria-labelledby="filterFilters" aria-hidden="true" role="dialog">
+			<h2 id="filterCategories">Filters</h2>
+			<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+			<div class="row margin-top-medium">
+				<div class="small-12 column">
+					<a href="" data-reveal-id="filterModal-sort" class="button display-block text-center hollow margin-bottom-base">Sort by: Cheapest First</a>
+					<a href="" data-reveal-id="filterModal-category" class="button display-block text-center hollow">Change Category</a>
+					<a href="" data-reveal-id="filterModal-location" class="button display-block text-center hollow">Change Location</a>
+					<a href="" data-reveal-id="filterModal-appPush" class="button display-block text-center hollow">Advanced Filters</a>
+				</div>
+			</div>
+		</div>
+	
 		<!-- this show the primary categories -->
 		<div id="filterModal-category" class="reveal-modal" data-reveal aria-labelledby="filterCategories" aria-hidden="true" role="dialog">
 			<h2 id="filterCategories">Select Category</h2>
